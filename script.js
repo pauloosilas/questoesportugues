@@ -4370,6 +4370,238 @@ const questions = {
       ],
       "correct": 0,
       "explanation": "Em “Doença celíaca é uma doença autoimune causada pela intolerância ao glúten”, temos voz passiva, já que o sujeito da oração (“doença celíaca”) é paciente, ou seja, recebe a ação expressa pelo verbo. O termo que pratica a ação na voz passiva é chamado de agente da passiva. No trecho em questão, o agente da passiva é “pela intolerância ao glúten”, uma vez que a intolerância ao glúten causa a doença celíaca. Veja: Doença celíaca é causada pela intolerância ao glúten. (voz passiva analítica) Intolerância ao glúten causa doença celíaca. (voz ativa)"
+    },
+
+    {
+      "question": "1.questão- (COSEAC - 2019 - Nível Superior) No trecho “Só o cachorro já velhíssimo (era jovem quando o jovem partiu) continuou a esperá-lo na sua esquina”, as duas ocorrências do termo “jovem” exercem, respectivamente, as funções sintáticas de",
+      "options": [
+        "A - predicativo e sujeito.",
+        "B - sujeito e objeto direto.",
+        "C - objeto direto e predicativo.",
+        "D - sujeito e adjunto adnominal.",
+        "E - adjunto adnominal e objeto direto."
+      ],
+      "correct": 0,
+      "explanation": "A primeira ocorrência da palavra “jovem” é classificada sintaticamente como predicativo do sujeito, pois caracteriza o sujeito por meio de um verbo de ligação (“o cachorro era jovem”). A segunda ocorrência do termo jovem é classificada sintaticamente como sujeito, sendo o termo sobre o qual se faz uma afirmação (“o jovem partiu”)."
+    },
+    {
+      "question": "2.questão- (MS CONCURSOS - 2019 - Nível Médio) Em “Estudiosos britânicos já consideram o sedentarismo uma epidemia”, os termos grifados são:",
+      "options": [
+        "A - Sujeito – objeto direto – predicativo do objeto.",
+        "B - Sujeito – objeto direto – objeto indireto.",
+        "C - Sujeito – objeto direto – predicativo do sujeito.",
+        "D - Objeto direto – sujeito – objeto indireto."
+      ],
+      "correct": 0,
+      "explanation": "“Estudiosos britânicos” - sujeito (termo sobre o qual se afirma algo) “o sedentarismo” - objeto direto (completa o sentido do verbo transitivo direto) “uma epidemia” - predicativo do objeto (atribui uma característica ao objeto)."
+    },
+    {
+      "question": "3.questão- (MS CONCURSOS - 2019 - Nível Médio) Em “Ainda ficam intrigados com os mistérios do cérebro os neurologistas modernos”, o termo grifado é:",
+      "options": [
+        "A - Predicativo do objeto.",
+        "B - Objeto direto.",
+        "C - Predicativo do sujeito.",
+        "D - Objeto indireto."
+      ],
+      "correct": 2,
+      "explanation": "O termo destacado classifica-se sintaticamente como predicativo do sujeito, uma vez que atribui ao sujeito uma característica. Fica mais fácil a identificação dos termos quando colocamos a oração na ordem direta: “Os neurologistas modernos ainda ficam intrigados com os mistérios do cérebro”."
+    },
+    {
+      "question": "4.questão- (Itame - 2019 - Nível Médio) Na oração: Os colegas consideram Pedro inteligente. O termo “inteligente” é um:",
+      "options": [
+        "A - Predicativo do sujeito.",
+        "B - Predicativo do objeto.",
+        "C - Complemento nominal.",
+        "D - Adjunto adnominal do objeto."
+      ],
+      "correct": 1,
+      "explanation": "O termo “inteligente” é um predicativo do objeto por atribuir ao objeto direto (“Pedro”) uma característica."
+    },
+    {
+      "question": "5.questão- (FUNDATEC - 2019 - Nível Médio) Analise a estrutura da fala do pai: “Rede social (1) aqui (2) em casa (3) é (4) outra coisa(5)”. Assinale a alternativa que indica o termo que se classifica como predicativo do sujeito nesta oração:",
+      "options": [
+        "A - 1.",
+        "B - 2.",
+        "C - 3.",
+        "D - 4.",
+        "E - 5."
+      ],
+      "correct": 4,
+      "explanation": "O termo “outra coisa” é classificado sintaticamente como predicativo do sujeito, pois é uma característica que se liga ao sujeito (“rede social”) por meio de um verbo de ligação (“é”)."
+    },
+    {
+      "question": "6.questão- (FUNDATEC - 2019 - Nível Superior) Analise o trecho a seguir retirado do texto: ‘“O uso (1) da tecnologia para aliviar os congestionamentos (2) e buscar fontes de energia renováveis é benéfico (3), mas precisamos tomar cuidado com ideias corporativas de monetizar tudo (4) na cidade (5) e introduzir regimes de vigilância”. Considerando os termos sublinhados e numerados, assinale a alternativa que apresenta o número correspondente ao termo que pode ser classificado sintaticamente como predicativo do sujeito.",
+      "options": [
+        "A - 1.",
+        "B - 2.",
+        "C - 3.",
+        "D - 4.",
+        "E - 5."
+      ],
+      "correct": 2,
+      "explanation": "O termo “benéfico” é um predicativo do sujeito, pois caracteriza o sujeito (“o uso da tecnologia”). Observe: “O uso da tecnologia é benéfico”."
+    },
+    {
+      "question": "7.questão- (Colégio Pedro II - 2017 - Nível Médio) Analise as alternativas a seguir e assinale aquela em que o adjetivo sublinhado exerce a função sintática de predicativo do sujeito.",
+      "options": [
+        "A - “Algumas vezes, reagira à escassa delicadeza de alguns balconistas [...]”.",
+        "B - “Com os seus 33 anos, estava em plena forma física.”.",
+        "C - “Radiante, a balconista empunhava-a como um troféu.”.",
+        "D - “Contemplou o lindo embrulho de motivações natalinas[...]”."
+      ],
+      "correct": 2,
+      "explanation": "O termo “radiante” é um predicativo do sujeito, por atribuir ao sujeito uma característica. Observe: “A balconista empunhava-a como um troféu” / “A balconista estava radiante”."
+    },
+    {
+      "question": "8.questão- (LEGALLE - 2017 - Nível Médio) Em “Dentro de um abraço nenhuma situação é incerta.” O termo em destaque exerce função sintática de:",
+      "options": [
+        "A - Objeto direto.",
+        "B - Objeto indireto.",
+        "C - Adjunto adnominal.",
+        "D - Predicativo do sujeito.",
+        "E - Predicativo do objeto."
+      ],
+      "correct": 3,
+      "explanation": "A palavra “incerta” é um predicativo do sujeito, pois caracteriza o sujeito (“nenhuma situação”)."
+    },
+    {
+      "question": "9.questão-  Assinale a alternativa cujo termo destacado tenha função sintática de predicativo.",
+      "options": [
+        "A - Os pensamentos ruins não a deixavam em paz.",
+        "B - A menina precisava do apoio da mãe.",
+        "C - As frutas estão na geladeira.",
+        "D - Chegaram adiantados os convidados.",
+        "E - Os candidatos atrasados não farão a prova."
+      ],
+      "correct": 3,
+      "explanation": "O termo “adiantados” tem função de predicativo do sujeito, uma vez que atribui ao sujeito (“os convidados”) uma característica. Nesse caso, o verbo é significativo (de ação), mas pode-se afirmar que há um verbo de ligação implícito. Note: “Os convidados chegaram (e estavam) adiantados” Não confunda: o termo destacado na alternativa E é classificado sintaticamente como adjunto adnominal. Observe que “atrasados” acompanha o núcleo do sujeito (candidatos) e faz parte do sujeito. Já o predicativo nunca estará dentro do sujeito."
+    },
+    {
+      "question": "10.questão- (Big Advice - 2017 - Nível Superior) “Os professores saíram da reunião arrasados.” Sintaticamente, temos:",
+      "options": [
+        "A - Sujeito simples, predicado verbal, adjunto adverbial.",
+        "B - Sujeito simples, predicado verbo-nominal, predicativo do sujeito.",
+        "C - Sujeito composto, predicado verbal, predicativo do sujeito.",
+        "D - Sujeito composto, predicado nominal, predicativo do sujeito.",
+        "E - Sujeito composto, predicado verbal, objeto indireto."
+      ],
+      "correct": 1,
+      "explanation": "O sujeito é simples (“Os professores”); o predicado é verbo-nominal por possuir dois núcleos: um verbo de ação (“saíram”) e um predicativo do sujeito (“arrasados”)."
+    },
+    {
+      "question": "1.questão- (CETAP - 2015 - Nível Superior - adaptada) “O jornal de domingo trouxe uma matéria (...)”. Na frase, a locução “de domingo”, por admitir sua substituição pelo adjetivo dominical, funciona como:",
+      "options": [
+        "A - adjunto adnominal.",
+        "B - adjunto adverbial.",
+        "C - predicativo.",
+        "D - vocativo.",
+        "E - aposto."
+      ],
+      "correct": 0,
+      "explanation": "A expressão “de domingo” é um adjunto adnominal por acompanhar o substantivo concreto “jornal” e por admitir sua substituição pelo adjetivo “dominical”."
+    },
+    {
+      "question": "2.  questão-  Leia a seguinte frase e, em seguida, assinale a alternativa incorreta: “Compramos duas grandes panelas de aço.”",
+      "options": [
+        "A - Os termos “duas”, “grandes” e “de aço” são adjuntos adnominais e estão acompanhando a palavra “panelas”.",
+        "B - A palavra “panelas” é núcleo do objeto direto.",
+        "C - A expressão “de aço” é complemento nominal, já que se liga a um nome por meio de preposição.",
+        "D - Na frase, há três adjuntos adnominais representados por numeral, adjetivo e locução adjetiva, respectivamente."
+      ],
+      "correct": 2,
+      "explanation": "A alternativa C está incorreta. A expressão “de aço” é adjunto adnominal, não complemento nominal, já que acompanha o substantivo concreto “panelas”. Complemento nominal nunca se relaciona a um substantivo concreto."
+    },
+    {
+      "question": "3.questão- (Português com Letícia) Leia as seguintes frases e, em seguida, marque a alternativa incorreta.<br/>I. Os alunos indisciplinados ficaram na sala.<br/>II. Os alunos ficaram na sala indisciplinados.",
+      "options": [
+        "A - Na oração I, o termo “indisciplinados” é responsável por atribuir uma característica ao núcleo do sujeito “alunos”.",
+        "B - Na oração II, o termo “indisciplinados” atribui ao sujeito “os alunos” uma característica momentânea.",
+        "C - O termo “indisciplinados” é classificado sintaticamente como adjunto adnominal e predicativo do sujeito nas orações I e II, respectivamente.",
+        "D - A troca de ordem das palavras que ocorreu entre as duas frases altera o sentido dos enunciados, mas não muda a classificação sintática da palavra “indisciplinados”.",
+        "E - O predicado da oração II é classificado como verbo-nominal por possuir dois núcleos: um verbo de ação e um predicativo."
+      ],
+      "correct": 3,
+      "explanation": "a) CORRETA | Na oração I, o termo “indisciplinados” é um adjetivo que, de fato, atribui uma característica a “alunos”, que é o núcleo do sujeito <br/>b) CORRETA | Na oração II, o termo “indisciplinados”, de fato, atribui uma característica momentânea a “os alunos”, que é o sujeito da oração. No contexto apresentado, o verbo “ficar” foi empregado como verbo de ação, ou seja, trata-se de um verbo transitivo direto. Como já vimos, quando isso ocorre, estamos diante de um predicado verbo-nominal. <br/>c) CORRETA | De fato, o termo “indisciplinados” exerce função sintática de adjunto adnominal na primeira oração (característica inerente) e de predicativo do sujeito na segunda oração (característica momentânea). <br/>d) INCORRETA | A alteração do lugar ocupado pela palavra “indisciplinados” altera o sentido da frase e também sua classificação sintática. Na frase I, “indisciplinados” é adjunto adnominal (traz uma característica inerente e fica dentro da função sintática do termo a que se relaciona). Já na frase II, o termo “indisciplinados” é predicativo do sujeito (traz uma característica momentânea e fica de fora da função sintática do termo a que se relaciona). <br/>e) CORRETA | A oração II, de fato, possui um predicado verbo-nominal. No contexto apresentado, o verbo “ficar” foi empregado como verbo de ação, ou seja, trata-se de um verbo transitivo direto. Já o termo “indisciplinados” é o predicativo."
+    },
+    {
+      "question": "4. questão-(Quadrix - 2018 - Nível Superior) “Nos dias de hoje, essa resistência à prática de atividade física pode ser atribuída ao estilo de vida marcado pela turbulência do day a dia nos grandes centros urbanos.” A expressão “à prática de atividade física” atua como adjunto adnominal de “resistência”, já que se trata de termo preposicionado que completa o sentido de um nome.<br/>( ) CERTO <br/>(   ) ERRADO",
+      "options": [
+        "A - CERTO",
+        "B - ERRADO"
+      ],
+      "correct": 1,
+      "explanation": "ERRADO O termo “à prática de atividade física” é preposicionado e está relacionado a um nome (nesse caso, um substantivo abstrato). Ocorre que, partindo dessas características, o termo pode ser tanto adjunto adnominal quanto complemento nominal. O que vai diferenciar as duas classificações nesse contexto é se o termo possui natureza agente (que pratica a ação) ou paciente (que recebe a ação). Nesse caso, a expressão “à prática de atividade física” é paciente, pois sofre a resistência. Portanto, trata-se de um complemento nominal."
+    },
+    {
+      "question": "5.questão- (IADES - 2019 - Nível Médio) Assinale a alternativa cujo termo sublinhado representa adjunto adnominal da respectiva oração.",
+      "options": [
+        "A - “A responsabilidade é inseparável do comprometimento”",
+        "B - “dificilmente será comprometida com os respectivos afazeres”",
+        "C - “são requisitados pelas empresas”",
+        "D - “Ser comprometido no trabalho é muito mais que cumprir”",
+        "E - “atitudes favoráveis para o crescimento da empresa”"
+      ],
+      "correct": 4,
+      "explanation": "a) INCORRETA | O termo sublinhado é classificado como complemento nominal. <br/>b) INCORRETA | O termo sublinhado é classificado como complemento nominal. <br/>c) INCORRETA | O termo sublinhado é classificado como agente da passiva. <br/>d) INCORRETA | O termo sublinhado é classificado como adjunto adverbial. <br/>e) CORRETA | O termo “da empresa” é um adjunto adnominal por acompanhar o substantivo abstrato “crescimento” e ter caráter ativo (a empresa cresce)."
+    },
+    {
+      "question": "6.questão- (COPEVE-UFAL - 2016 - Nível Superior) Nas orações “A nota da imprensa esclareceu pontos obscuros do edital” e “A invenção da imprensa é creditada a Johannes Gutenberg”, os trechos destacados constituem, respectivamente,",
+      "options": [
+        "A - objeto direto e agente da passiva.",
+        "B - complemento nominal e objeto direto.",
+        "C - adjunto adnominal e adjunto adverbial.",
+        "D - adjunto adnominal e complemento nominal.",
+        "E - complemento nominal e predicativo do sujeito."
+      ],
+      "correct": 3,
+      "explanation": "Nesse tipo de contexto, em que precisamos diferenciar adjunto adnominal e complemento nominal, a dica é observar se o termo é agente (pratica a ação) ou paciente (recebe a ação). Em “A nota da imprensa”, a imprensa pratica a ação de fazer uma nota; o termo “da imprensa” é, portanto, adjunto adnominal. Já em “A invenção da imprensa”, o termo “da imprensa” recebe a ação de ter sido inventada; é, dessa forma, complemento nominal."
+    },
+    {
+      "question": "7.questão- (Português com Letícia) Leia o seguinte verso do poema de Drummond: “Teus ombros suportam o mundo.” Nele, cada palavra é classificada respectivamente como:",
+      "options": [
+        "A - Núcleo do sujeito - adjunto adnominal - verbo transitivo direto - núcleo do objeto direto - adjunto adnominal.",
+        "B - Adjunto adnominal - adjunto adnominal - verbo transitivo direto - adjunto adnominal - núcleo do objeto direto.",
+        "C - Adjunto adnominal - núcleo do sujeito - verbo intransitivo - adjunto adnominal - adjunto adverbial.",
+        "D - Adjunto adnominal - núcleo do sujeito - verbo transitivo direto - adjunto adnominal - núcleo do objeto direto.",
+        "E - Adjunto adnominal - núcleo do sujeito - verbo transitivo indireto - complemento nominal - núcleo do objeto indireto."
+      ],
+      "correct": 3,
+      "explanation": "O sujeito “Teus ombros” é formado por adjunto adnominal (“Teus”) e núcleo do sujeito (“ombros”). Há, em seguida, o verbo transitivo direto (“suportam”), que exige um complemento. O objeto direto “o mundo” é formado por adjunto adnominal (“o”) e núcleo do objeto direto (“mundo”)."
+    },
+    {
+      "question": "8.questão- (UFRRJ - 2015 - Nível Médio) “Assim, formam-se experts em articulações do joelho esquerdo que não sabem quem foi Hipócrates.” A palavra sublinhada assume, respectivamente, classe gramatical e função sintática de",
+      "options": [
+        "A - adjetivo e predicativo do sujeito.",
+        "B - substantivo e núcleo do sujeito.",
+        "C - adjetivo e adjunto adnominal.",
+        "D - advérbio e adjunto adverbial.",
+        "E - substantivo e predicativo do objeto."
+      ],
+      "correct": 2,
+      "explanation": "A palavra “esquerdo”, na frase em questão, é classificada morfologicamente (classe gramatical) como adjetivo e, sintaticamente, como adjunto adnominal, delimitando o sentido do substantivo concreto “joelho”."
+    },
+    {
+      "question": "9.questão- (IBFC - 2023 - Nível Superior) Na oração “O espírito humano não cria elementos do nada”:<br/>I. Há um sujeito composto: “espírito humano”.<br/>II. Não há uma ação, verbo: “não cria”.<br/>III. O sujeito da oração é simples: “humano”.<br/>IV. O objeto da oração é direto: “elementos”.<br/>V. Há um núcleo e um adjunto adnominal: “espírito humano”.<br/>Assinale a alternativa correta.",
+      "options": [
+        "A - Apenas as afirmativas I, II e III estão corretas.",
+        "B - Apenas as afirmativas II, IV e V estão corretas.",
+        "C - Apenas as afirmativas IV e V estão corretas.",
+        "D - Apenas as afirmativas II e IV estão corretas.",
+        "E - Apenas as afirmativas I e V estão corretas."
+      ],
+      "correct": 2,
+      "explanation": "Na oração “O espírito humano não cria elementos do nada”, “espírito humano” é o sujeito simples da oração, pois há apenas um núcleo (espírito + adjunto adnominal“humano”). O verbo “cria” é transitivo direto e, portanto, seu complemento também é direto (“elementos”)."
+    },
+    {
+      "question": "10.questão- (IBFC - 2023 - Nível Superior) Em “Milhares de turistas brasileiros e estrangeiros visitam o Pantanal”, os vocábulos destacados exercem, sintaticamente, a função de:",
+      "options": [
+        "A - núcleo do sujeito composto.",
+        "B - adjunto adnominal.",
+        "C - complemento nominal.",
+        "D - adjunto adverbial."
+      ],
+      "correct": 1,
+      "explanation": "a) INCORRETA | O sujeito é formado pela expressão “Milhares de turistas brasileiros e estrangeiros” e tem como núcleo a palavra “turistas”, que é o termo mais importante do sujeito. Como o sujeito possui apenas um núcleo, trata-se de sujeito simples. Os termos “brasileiros” e “estrangeiros” são adjuntos adnominais, que estão acompanhando o termo “turistas”, núcleo do sujeito. <br/>b) CORRETA | Os adjuntos adnominais especificam o significado de um substantivo. Os termos “brasileiros” e “estrangeiros” são adjuntos adnominais que estão acompanhando e especificando o termo “turistas” (núcleo do sujeito). Vale mencionar que, neste caso, os adjuntos adnominais integram o sujeito, ou seja, estão dentro do sujeito. <br/>c) INCORRETA | O complemento nominal completa o sentido de um substantivo abstrato, de um adjetivo ou de um advérbio. Em “turistas brasileiros e estrangeiros”, os termos “brasileiros e estrangeiros” acompanham a palavra “turistas”, que é um substantivo concreto. Além disso, o complemento nominal vem precedido de preposição, e os termos destacados não estão preposicionados. <br/>d) INCORRETA | Os adjuntos adverbiais expressam circunstâncias do processo verbal e, geralmente, acompanham verbos (mas também podem acompanhar adjetivos ou advérbios). Os termos destacados estão acompanhando o substantivo “turistas."
     }
   ]
 
