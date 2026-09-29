@@ -4164,11 +4164,11 @@ const questions = {
     {
       "question": "2.questão- (CETREDE - 2019 - Nível Médio) Marque a opção em que o termo destacado tem função de complemento nominal.",
       "options": [
-        "A - Pedro e João viajaram.",
-        "B - Não vi Maria.",
-        "C - Fui traído por Maria.",
-        "D - Ele parece ter ódio de João.",
-        "E - Gosto muito de João."
+        "A - <u>Pedro e João</u> viajaram.",
+        "B - Não vi <u>Maria</u>.",
+        "C - Fui traído <u>por Maria</u>.",
+        "D - Ele parece ter ódio <u>de João</u>.",
+        "E - Gosto muito <u>de João</u>."
       ],
       "correct": 3,
       "explanation": "a) INCORRETA | O termo destacado possui a função de sujeito. <br/>b) INCORRETA | O termo destacado possui a função de objeto direto. <br/>c) INCORRETA | O termo destacado possui a função de agente da passiva. <br/>d) CORRETA | O termo “de João” completa o sentido do substantivo abstrato “ódio” por meio de uma preposição (de) e é paciente (João sofre a ação de ser odiado). Trata-se, portanto, de um complemento nominal. <br/>e) INCORRETA | O termo destacado possui a função de objeto indireto."
