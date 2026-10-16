@@ -5082,7 +5082,441 @@ const questions = {
     "correct": 1,
     "explanation": "GABARITO 10 B<br/>a) INCORRETA | Frase verbal, pois contém verbo (“sobe”).<br/>b) CORRETA | Frase nominal, ou seja, sem a presença de verbos.<br/>c) INCORRETA | Frase verbal, pois contém verbo (“despencam”).<br/>d) INCORRETA | Frase verbal, pois contém verbo (“cai”).<br/>e) INCORRETA | Frase verbal, pois contém verbo (“registra”)."
   }
-]
+],
+
+
+  "concordancia_verbal_completa": [
+    {
+      "question": "Assinale a alternativa em que a concordância verbal com o substantivo coletivo especificado está <u>incorreta</u>:",
+      "options": [
+        "A - O bando de pássaros voou para o sul ao entardecer.",
+        "B - O bando de pássaros voaram para o sul ao entardecer.",
+        "C - A multidão de torcedores invadiram o campo após o apito final.",
+        "D - A multidão de torcedores invadiu o campo e comemoraram o título."
+      ],
+      "correct": 3,
+      "explanation": "Quando o sujeito é formado por um substantivo coletivo especificado por um termo no plural (como 'multidão de torcedores'), o verbo pode ficar no singular (concordando com o coletivo 'multidão') ou ir para o plural (concordando com o especificador 'torcedores'). No entanto, na opção D, houve uma quebra na harmonia das concordâncias ou falta de paralelismo direto incorreto na estrutura composta, mas especificamente: 'A multidão de torcedores invadiu (singular) e comemoraram (plural)' mistura as formas sem um sujeito claro explicitado no segundo verbo. Para fins puramente normativos da regra do coletivo especificado, tanto o singular quanto o plural são aceitos (como nas opções A, B e C), fazendo da inconsistência na opção D a alternativa incorreta."
+    },
+    {
+      "question": "Analise as frase a seguir: 'A maioria dos estudantes <u>passou</u> na prova' e 'A maioria dos estudantes <u>passaram</u> na prova'. Sobre a concordância verbal aplicada, é correto afirmar:",
+      "options": [
+        "A - Apenas a primeira frase está correta, pois o verbo deve concordar obrigatoriamente com o núcleo 'maioria'.",
+        "B - Apenas a segunda frase está correta, pois o verbo deve concordar com o termo especificado 'estudantes'.",
+        "C - Ambas as frases estão corretas, pois com expressões partitivas ou coletivos especificados admite-se a concordância no singular ou no plural.",
+        "D - Ambas as frases estão incorretas, pois o correto seria utilizar o verbo no particípio."
+      ],
+      "correct": 2,
+      "explanation": "Com expressões partitivas (como 'a maioria de', 'a maior parte de') ou coletivos acompanhados de adjunto adnominal no plural ('dos estudantes'), a gramática normativa permite dupla concordância: o verbo pode concordar com o núcleo no singular ('maioria') ou com o elemento especificador no plural ('estudantes')."
+    },
+   {
+      "question": "De acordo com as regras de concordância verbal com <u>expressões partitivas</u> seguidas de substantivo no plural, assinale a alternativa correta:",
+      "options": [
+        "A - Apenas o verbo no singular é aceito pela norma-padrão.",
+        "B - Apenas o verbo no plural é aceito pela norma-padrão.",
+        "C - São aceitas ambas as concordâncias: no singular (com a expressão partitiva) ou no plural (com o especificador).",
+        "D - O verbo deve permanecer obrigatoriamente no infinitivo."
+      ],
+      "correct": 2,
+      "explanation": "Quando o sujeito é formado por uma expressão partitiva (como 'a maioria de', 'a maior parte de', 'metade de') seguida por um substantivo ou pronome no plural, a gramática aceita a dupla concordância: no singular, concordando com o núcleo partitivo, ou no plural, concordando com o termo especificador."
+    },
+    {
+      "question": "Assinale a frase em que a concordância verbal com a expressão partitiva está <u>inadequada</u> segundo a norma-padrão:",
+      "options": [
+        "A - A maioria dos candidatos <u>faltou</u> no primeiro dia de exames.",
+        "B - A maioria dos candidatos <u>faltaram</u> no primeiro dia de exames.",
+        "C - Grande parte dos problemas <u>foram solucionados</u> pela equipe.",
+        "D - A maioria do público <u>estavam insatisfeitos</u> com o resultado."
+      ],
+      "correct": 3,
+      "explanation": "Na opção D, a expressão partitiva 'a maioria' está acompanhada de um especificador no singular ('do público'). Como ambos os elementos estão no singular, o verbo deve obrigatoriamente ficar no singular ('estava insatisfeito'). O plural só é admitido quando o especificador está no plural (ex.: 'dos espectadores')."
+    },
+    {
+      "question": "Considere a frase: '<u>Boa parte dos alunos</u> __________ às aulas presenciais.' Qual alternativa preenche a lacuna de acordo com a norma-padrão?",
+      "options": [
+        "A - Apenas a forma <u>retornou</u> é correta.",
+        "B - Apenas a forma <u>retornaram</u> é correta.",
+        "C - Ambas as formas <u>retornou</u> e <u>retornaram</u> são corretas.",
+        "D - Nenhuma das formas é aceita, pois faltou o verbo auxiliar."
+      ],
+      "correct": 2,
+      "explanation": "Como o sujeito possui a expressão partitiva 'boa parte de' acompanhada do termo no plural 'dos alunos', é facultativo concordar no singular com o núcleo 'parte' (retornou) ou no plural com o adjunto 'alunos' (retornaram)."
+    },
+    {
+      "question": "Em qual das opções a concordância no plural é <u>obrigatória</u>?",
+      "options": [
+        "A - A maior parte dos relatórios <u>foi apresentada</u> ontem.",
+        "B - Uma porção de clientes <u>reclamou</u> do atendimento.",
+        "C - Metade dos funcionários <u>entraram</u> em greve.",
+        "D - Quase 20% dos entrevistados <u>responderam</u> à pesquisa."
+      ],
+      "correct": 3,
+      "explanation": "Com expressões numéricas percentuais seguidas de especificador no plural (ex.: '20% dos entrevistados'), quando o numeral é maior que 1 e o especificador está no plural, a concordância deve ser realizada no plural ('responderam'). Nas demais opções há expressões partitivas com núcleos no singular ('a maior parte', 'uma porção', 'metade'), que admitem concordância no singular ou no plural."
+    },
+    {
+      "question": "Analise a frase: '<u>Metade da população</u> declarou voto no candidato.' Por que o verbo está exclusivamente no singular?",
+      "options": [
+        "A - Porque expressões partitivas nunca admitem concordância no plural.",
+        "B - Porque o termo especificador ('da população') está no singular, não permitindo atração para o plural.",
+        "C - Porque a palavra 'metade' exige obrigatoriamente que o verbo fique no plural.",
+        "D - Trata-se de um erro de concordância, devendo ser 'declararam'."
+      ],
+      "correct": 1,
+      "explanation": "A dupla concordância (singular ou plural) com expressões partitivas só ocorre quando o elemento especificador que segue a preposição está no plural (ex.: 'metade dos cidadãos'). Quando o especificador está no singular ('da população'), o verbo só pode ficar no singular."
+    },
+    {
+      "question": "Quanto à concordância verbal com <u>nomes próprios no plural</u> (como nomes de países ou obras), assinale a regra correta segundo a norma-padrão:",
+      "options": [
+        "A - O verbo deve ficar sempre no plural, independentemente da presença de artigo.",
+        "B - Se o nome plural vier acompanhado de artigo no plural, o verbo concorda no plural; sem artigo, o verbo fica no singular.",
+        "C - O verbo deve ficar sempre no singular, pois trata-se de uma única entidade ou obra.",
+        "D - A concordância é livre e facultativa em qualquer situação com nomes no plural."
+      ],
+      "correct": 1,
+      "explanation": "A regra geral para nomes próprios no plural estabelece que a concordância depende da presença do artigo no plural: com artigo no plural (ex.: 'Os Estados Unidos'), o verbo vai para o plural; sem artigo (ex.: 'Estados Unidos'), o verbo permanece no singular."
+    },
+    {
+      "question": "Assinale a alternativa em que a concordância verbal com o nome no plural está <u>incorreta</u>:",
+      "options": [
+        "A - <u>Os Estados Unidos representam</u> uma grande potência econômica mundial.",
+        "B - <u>Estados Unidos representa</u> uma grande potência econômica mundial.",
+        "C - <u>As Minas Gerais guardam</u> marcas importantes da história do Brasil.",
+        "D - <u>Minas Gerais pertencem</u> à Região Sudeste do Brasil."
+      ],
+      "correct": 3,
+      "explanation": "Na opção D, a expressão 'Minas Gerais' não está acompanhada pelo artigo definido no plural ('As'). Portanto, o verbo deveria permanecer obrigatoriamente no singular: 'Minas Gerais pertence à Região Sudeste do Brasil'."
+    },
+    {
+      "question": "Considere a frase sobre a famosa obra literária: '<u>Os Lusíadas</u> ________ a história das navegações portuguesas.' Qual alternativa preenche a lacuna corretamente?",
+      "options": [
+        "A - Apenas a forma <u>narra</u> é correta.",
+        "B - Apenas a forma <u>narram</u> é correta.",
+        "C - Ambas as formas <u>narra</u> e <u>narram</u> são aceitas sem restrição.",
+        "D - O verbo deve ser omitido por se tratar de um título."
+      ],
+      "correct": 1,
+      "explanation": "Como o título da obra está antecedido do artigo no plural ('Os'), o verbo concorda no plural ('Os Lusíadas narram'). Em títulos de obras, quando há artigo no plural, a concordância no plural é a regra gramatical padrão exigida."
+    },
+    {
+      "question": "Qual das frases a seguir apresenta a concordância verbal <u>correta</u> com nomes de lugares no plural sem artigo?",
+      "options": [
+        "A - <u>Alagoas atrai</u> milhares de turistas todos os anos devido às suas praias.",
+        "B - <u>Alagoas atraem</u> milhares de turistas todos os anos devido às suas praias.",
+        "C - <u>Campinas possuem</u> uma das universidades mais prestigiadas do país.",
+        "D - <u>Vassouras destacam-se</u> pelo turismo histórico na região do Vale do Café."
+      ],
+      "correct": 0,
+      "explanation": "Substantivos próprios topônimos no plural que não usam artigo (como 'Alagoas', 'Campinas', 'Vassouras') exigem o verbo no singular. Portanto, a forma correta é 'Alagoas atrai'."
+    },
+    {
+      "question": "Analise as sentenças abaixo:\nI. <u>Os Alpes atraem</u> escaladores do mundo todo.\nII. <u>Andes fica</u> na América do Sul.\nIII. <u>Os Andes ficam</u> na América do Sul.\n\nEstá(ão) de acordo com a norma-padrão de concordância verbal:",
+      "options": [
+        "A - Apenas a sentença I.",
+        "B - Apenas as sentenças I e II.",
+        "C - Apenas as sentenças I e III.",
+        "D - Todas as sentenças (I, II e III)."
+      ],
+      "correct": 2,
+      "explanation": "As frases I e III estão corretas porque o artigo 'Os' determina o uso do verbo no plural ('Os Alpes atraem' / 'Os Andes ficam'). A frase II está incorreta porque a cordilheira exige o uso do artigo antecedente no plural ('Os Andes')."
+    },
+    {
+      "question": "De acordo com a norma-padrão da língua portuguesa, qual é a regra geral de <u>concordância verbal</u> quando se utiliza um pronome de tratamento (como 'Vossa Excelência' ou 'Vossa Magnificência')?",
+      "options": [
+        "A - O verbo deve concordar obrigatoriamente em 2ª pessoa do gramatical (tu ou vós).",
+        "B - O verbo deve concordar sempre em 3ª pessoa, seja do singular ou do plural.",
+        "C - O verbo deve concordar sempre em 1ª pessoa do plural (nós).",
+        "D - A concordância é facultativa entre a 2ª e a 3ª pessoa gramatical."
+      ],
+      "correct": 1,
+      "explanation": "Apesar de os pronomes de tratamento se referirem à pessoa com quem se fala (2ª pessoa do discurso), gramaticalmente eles exigem que o verbo e os demais pronomes associados fiquem em 3ª pessoa (do singular ou do plural, conforme a indicação de número do pronome)."
+    },
+    {
+      "question": "Assinale a alternativa que preenche <u>corretamente</u> a lacuna na frase a seguir: 'Vossa Excelência ________ os documentos necessários para a reunião?'",
+      "options": [
+        "A - trouxe",
+        "B - trouxeste",
+        "C - trouxestes",
+        "D - trouxeste-nos"
+      ],
+      "correct": 0,
+      "explanation": "O pronome de tratamento 'Vossa Excelência' exige o verbo na 3ª pessoa do singular ('trouxe'). As formas 'trouxeste' (2ª pessoa do singular - tu) e 'trouxestes' (2ª pessoa do plural - vós) estão incorretas nesse contexto."
+    },
+    {
+      "question": "Analise as frases quanto à concordância verbal com pronomes de tratamento:\nI. <u>Vossas Santidades sabem</u> da responsabilidade deste encontro.\nII. <u>Vossa Senhoria sabeis</u> que o prazo expirou ontem.\nIII. <u>Vossa Magnificência discursará</u> na cerimônia de abertura.\n\nEstá(ão) <u>correta(s)</u> segundo a norma-padrão:",
+      "options": [
+        "A - Apenas a II.",
+        "B - Apenas a I e a III.",
+        "C - Apenas a II e a III.",
+        "D - Todas as frases (I, II e III)."
+      ],
+      "correct": 1,
+      "explanation": "Na frase I, 'Vossas Santidades' (plural) exige verbo na 3ª pessoa do plural ('sabem'). Na frase III, 'Vossa Magnificência' (singular) exige verbo na 3ª pessoa do singular ('discursará'). A frase II está incorreta porque usou a 2ª pessoa do plural ('sabeis' - vós) em vez da 3ª pessoa do singular ('sabe')."
+    },
+    {
+      "question": "Assinale a alternativa em que a concordância verbal com o pronome de tratamento está <u>incorreta</u>:",
+      "options": [
+        "A - Vossa Excelência <u>determinou</u> o cancelamento da sessão.",
+        "B - Vossas Excelências <u>determinaram</u> o cancelamento da sessão.",
+        "C - Vossa Majestade <u>concedestes</u> a audiência aos embaixadores.",
+        "D - Vossa Majestade <u>concedeu</u> a audiência aos embaixadores."
+      ],
+      "correct": 2,
+      "explanation": "Na opção C, a forma verbal 'concedestes' pertence à 2ª pessoa do plural (vós). Como 'Vossa Majestade' exige obrigatoriamente a 3ª pessoa do singular, a forma correta é 'concedeu', como apresentado na opção D."
+    },
+    {
+      "question": "Em um pronunciamento oficial dirigido a um grupo de reitores, a forma <u>correta</u> de concordância verbal com o pronome de tratamento no plural é:",
+      "options": [
+        "A - <u>Vossas Magnificências aprovaram</u> o novo regimento acadêmico.",
+        "B - <u>Vossas Magnificências aprovaram-vos</u> o novo regimento acadêmico.",
+        "C - <u>Vossas Magnificências aprovastes</u> o novo regimento acadêmico.",
+        "D - <u>Vossas Magnificências aprovou</u> o novo regimento acadêmico."
+      ],
+      "correct": 0,
+      "explanation": "Quando o pronome de tratamento está no plural ('Vossas Magnificências'), o verbo deve obrigatoriamente concordar na 3ª pessoa do plural ('aprovaram')."
+    },
+    {
+      "question": "De acordo com a norma-padrão da língua portuguesa, como deve ser feita a concordância verbal quando o sujeito é o pronome relativo <u>QUE</u>?",
+      "options": [
+        "A - O verbo fica obrigatoriamente na 3ª pessoa do singular.",
+        "B - O verbo concorda em número e pessoa com o antecedente do pronome.",
+        "C - O verbo deve ir obrigatoriamente para o plural.",
+        "D - A concordância é livre entre a 1ª, 2ª e 3ª pessoa, independentemente do antecedente."
+      ],
+      "correct": 1,
+      "explanation": "Quando o sujeito da oração é o pronome relativo 'QUE', o verbo deve concordar em número e pessoa com o termo antecedente (ex.: 'Fui eu que <u>falei</u>' ou 'Fomos nós que <u>falamos</u>')."
+    },
+    {
+      "question": "Quando o sujeito da oração é o pronome relativo <u>QUEM</u>, quais são as possibilidades de concordância verbal aceitas pela norma-padrão?",
+      "options": [
+        "A - O verbo concorda obrigatoriamente na 1ª pessoa do plural.",
+        "B - O verbo deve ficar sempre no plural, concordando com o pronome 'quem'.",
+        "C - O verbo pode ficar na 3ª pessoa do singular ou concordar em número e pessoa com o antecedente.",
+        "D - O verbo concorda apenas com a 2ª pessoa do singular (tu)."
+      ],
+      "correct": 2,
+      "explanation": "Com o pronome relativo 'QUEM', admitem-se duas construções corretas: o verbo concorda na 3ª pessoa do singular (concordando com o próprio pronome 'quem') ou concorda com o termo antecedente em número e pessoa (ex.: 'Fui eu quem <u>fiz</u>' ou 'Fui eu quem <u>fez</u>')."
+    },
+    {
+      "question": "Assinale a alternativa que preenche <u>corretamente</u> e de acordo com a norma-padrão a lacuna da frase: 'Fomos nós que ________ o relatório do projeto.'",
+      "options": [
+        "A - elaborou",
+        "B - elaboramos",
+        "C - elaboraram",
+        "D - elaborará"
+      ],
+      "correct": 1,
+      "explanation": "Na presença do pronome relativo 'QUE', o verbo deve concordar estritamente com o termo antecedente. Como o antecedente é 'nós' (1ª pessoa do plural), a única forma correta para preencher a lacuna é 'elaboramos'."
+    },
+    {
+      "question": "Considere a sentença: 'Fui eu quem ________ o aviso na muralha.' Qual das opções preenche a lacuna de maneira <u>inadequada</u> segundo a gramática normativa?",
+      "options": [
+        "A - afixou",
+        "B - afixei",
+        "C - afixamos",
+        "D - Ambas as opções A e B são adequadas, portanto nenhuma é inadequada."
+      ],
+      "correct": 2,
+      "explanation": "Com o pronome 'QUEM', o verbo pode concordar com o antecedente 'eu' (afixei) ou ficar na 3ª pessoa do singular concordando com 'quem' (afixou). A forma 'afixamos' (1ª pessoa do plural) está completamente inadequada pois não concorda nem com o pronome nem com o antecedente 'eu'."
+    },
+    {
+      "question": "Analise as frases a seguir quanto à concordância com os pronomes <u>QUE</u> e <u>QUEM</u>:\nI. Somos nós que <u>resolvemos</u> o problema.\nII. Somos nós quem <u>resolveu</u> o problema.\nIII. Somos nós quem <u>resolvemos</u> o problema.\n\nEstá(ão) de acordo com a norma-padrão:",
+      "options": [
+        "A - Apenas a frase I.",
+        "B - Apenas as frases I e II.",
+        "C - Apenas as frases II e III.",
+        "D - Todas as frases (I, II e III)."
+      ],
+      "correct": 3,
+      "explanation": "A frase I está correta porque com 'QUE' o verbo concorda com 'nós' (resolvemos). A frase II está correta porque com 'QUEM' o verbo pode ficar na 3ª pessoa do singular (resolveu). A frase III também está correta porque com 'QUEM' o verbo também pode concordar com o antecedente 'nós' (resolvemos)."
+    },
+    {
+      "question": "Assinale a opção em que a concordância verbal com o pronome relativo está <u>incorreta</u>:",
+      "options": [
+        "A - Foram os alunos que <u>organizaram</u> a feira de ciências.",
+        "B - Foram os alunos que <u>organizou</u> a feira de ciências.",
+        "C - Fomos nós quem <u>trouxe</u> os suprimentos de emergência.",
+        "D - Fui eu que <u>assinei</u> o contrato de prestação de serviços."
+      ],
+      "correct": 1,
+      "explanation": "Na opção B, o uso do pronome 'QUE' exige que o verbo concorde com o antecedente 'os alunos' (3ª pessoa do plural). Portanto, a forma no singular 'organizou' é incorreta; o correto seria 'organizaram'."
+    },
+    {
+      "question": "Quando os núcleos do sujeito composto são ligados pela conjunção <u>OU</u> com ideia de <u>exclusão</u> (apenas um dos elementos realiza ou sofre a ação), como deve ser feita a concordância verbal?",
+      "options": [
+        "A - O verbo deve ir obrigatoriamente para o plural.",
+        "B - O verbo deve ficar obrigatoriamente no singular.",
+        "C - O verbo concorda sempre na 1ª pessoa do plural.",
+        "D - A concordância é facultativa entre singular e plural."
+      ],
+      "correct": 1,
+      "explanation": "Quando a conjunção 'OU' indica exclusão, isto é, apenas um dos elementos pode realizar a ação declarada pelo verbo (por exemplo, na escolha de um cargo ou título), o verbo deve permanecer no singular (ex.: 'Pedro ou Paulo será o presidente da associação')."
+    },
+    {
+      "question": "Assinale a alternativa em que o verbo deve ir <u>obrigatoriamente para o plural</u> porque a conjunção <u>OU</u> expressa ideia de inclusão ou adição (ambos os elementos praticam a ação simultaneamente):",
+      "options": [
+        "A - André ou Marcos <u>vencerá</u> a corrida de amanhã.",
+        "B - A dengue ou a febre amarela <u>são transmitidas</u> por mosquitos.",
+        "C - Roma ou Paris <u>será</u> o destino escolhido para as férias.",
+        "D - João ou Maria <u>ocupará</u> a única vaga restante no curso."
+      ],
+      "correct": 1,
+      "explanation": "Na opção B, a conjunção 'OU' possui valor inclusivo/aditivo, pois tanto a dengue quanto a febre amarela são transmitidas por mosquitos (a ação ou fato se aplica a ambos os sujeitos). Nesse caso, o verbo deve ir para o plural ('são transmitidas'). Nas demais opções, há ideia de exclusão mútua, exigindo o verbo no singular."
+    },
+    {
+      "question": "Analise a frase: '<u>A prática de esportes ou a boa alimentação ________ fundamentais para a saúde</u>.' Qual forma verbal preenche corretamente a lacuna segundo a norma-padrão e por qual razão?",
+      "options": [
+        "A - <u>É</u>, pois o verbo concorda apenas com o primeiro núcleo.",
+        "B - <u>É</u>, porque a conjunção 'ou' sempre exige o verbo no singular.",
+        "C - <u>São</u>, pois a conjunção 'ou' liga elementos de equivalência/retificação em tom de aditivo, onde ambos contribuem para o resultado.",
+        "D - <u>Serão</u>, exigido apenas quando há intenção de futuro próximo."
+      ],
+      "correct": 2,
+      "explanation": "Nessa frase, a prática de esportes e a boa alimentação não se excluem mutuamente; ambas atuam juntas como fatores fundamentais para a saúde (ideia de inclusão/sinonímia/adição). Por isso, o verbo vai para o plural: 'A prática de esportes ou a boa alimentação são fundamentais...'"
+    },
+    {
+      "question": "Em qual das seguintes frases a concordância verbal com sujeitos ligados por <u>OU</u> em sentido de <u>retificação ou sinonímia</u> está aplicada corretamente com o verbo no <u>singular</u>?",
+      "options": [
+        "A - O ladrão ou os ladrões <u>assaltou</u> o banco ontem à noite.",
+        "B - A física quantica ou mecânica quântica <u>estudam</u> os fenômenos subatômicos.",
+        "C - O café ou o chá <u>são</u> a mesma bebida com nomes diferentes.",
+        "D - A gastroenterite ou infecção intestinal <u>causa</u> desconforto abdominal e náuseas."
+      ],
+      "correct": 3,
+      "explanation": "Quando a conjunção 'OU' estabelece uma equivalência semântica, sinonímia ou retificação (ou seja, quando os termos se referem ao mesmo conceito/doença/fenômeno), o verbo permanece no singular. Como 'gastroenterite' e 'infecção intestinal' referem-se à mesma condição clínica no contexto de explicação, a concordância correta no singular é 'causa'."
+    },
+    {
+      "question": "De acordo com a norma-padrão da língua portuguesa, qual é a regra geral para a concordância verbal quando os núcleos do sujeito estão ligados por <u>NEM</u> (ou <u>NEM... NEM</u>) com ideia de <u>adição/soma</u>?",
+      "options": [
+        "A - O verbo deve ir preferencialmente para o plural, pois a negação se aplica a ambos os núcleos.",
+        "B - O verbo deve ficar obrigatoriamente no singular em qualquer contexto.",
+        "C - O verbo concorda sempre no feminino plural.",
+        "D - A concordância no plural é proibida pela gramática normativa."
+      ],
+      "correct": 0,
+      "explanation": "Quando os núcleos do sujeito estão ligados por 'nem' (ou 'nem... nem') e a negação se refere a ambos os elementos somados, a regra geral é que o verbo vá para o plural (ex.: 'Nem o pai nem o filho <u>vieram</u> à reunião')."
+    },
+    {
+      "question": "Assinale a alternativa em que o verbo deve permanecer <u>obrigatoriamente no singular</u>, mesmo com os núcleos ligados por <u>NEM</u>:",
+      "options": [
+        "A - Nem o diretor nem os professores <u>aceitaram</u> a proposta de mudanças.",
+        "B - Nem a chuva nem o vento forte <u>impediram</u> a realização do evento.",
+        "C - Nem Carlos nem Eduardo <u>será eleito</u> o único presidente do clube.",
+        "D - Nem o tempo nem a distância <u>apagam</u> as boas lembranças."
+      ],
+      "correct": 2,
+      "explanation": "Quando a conjunção 'nem' liga núcleos em um contexto de exclusão mútua — em que a ação declarada só pode ser realizada por apenas um dos indivíduos (como a eleição para um cargo único) —, o verbo deve obrigatoriamente permanecer no singular."
+    },
+    {
+      "question": "Analise as frases quanto à concordância verbal com sujeitos ligados por <u>NEM</u>:\nI. <u>Nem o professor nem o aluno conseguiram</u> resolver a questão normativa.\nII. <u>Nem o professor nem o aluno conseguiu</u> resolver a questão normativa.\nIII. <u>Nem um nem outro disseram</u> a verdade durante o depoimento.\n\nEstá(ão) de acordo com as possibilidades admitidas pela gramática normativa:",
+      "options": [
+        "A - Apenas a frase I.",
+        "B - Apenas as frases I e II.",
+        "C - Apenas a frase III.",
+        "D - Todas as frases (I, II e III)."
+      ],
+      "correct": 3,
+      "explanation": "Com 'nem... nem', quando não há exclusão mútua estrita, embora o plural seja a preferência, o singular também é aceito por atração com o núcleo mais próximo (tornando I e II corretas). Já na expressão 'nem um nem outro' (frase III), a gramática normativa aceita tanto o verbo no plural quanto no singular."
+    },
+    {
+      "question": "De acordo com a norma-padrão da língua portuguesa, qual é a regra geral de <u>concordância verbal</u> quando os núcleos do sujeito estão ligados por expressões correlativas aditivas (como 'não só... mas também', 'tanto... quanto', 'não só... como')?",
+      "options": [
+        "A - O verbo deve ir preferencialmente para o plural, pois as estruturas possuem valor aditivo/de soma.",
+        "B - O verbo deve ficar obrigatoriamente no singular, concordando apenas com o primeiro núcleo.",
+        "C - O verbo deve obrigatoriamente concordar em 2ª pessoa do plural.",
+        "D - A concordância é proibida e a frase deve ser reescrita no apassivador."
+      ],
+      "correct": 0,
+      "explanation": "Expressões como 'não só... mas também', 'tanto... quanto' e 'não só... como' conectam elementos com valor de adição (soma). Por isso, a regra geral e preferencial da gramática normativa é que o verbo vá para o <u>plural</u>."
+    },
+    {
+      "question": "Assinale a alternativa que preenche <u>corretamente</u> a lacuna na frase a seguir, respeitando a preferência normativa de concordância: '<u>Não só o diretor, mas também os assessores ________ de acordo com a proposta</u>.'",
+      "options": [
+        "A - estava",
+        "B - estavam",
+        "C - esteve",
+        "D - estaria"
+      ],
+      "correct": 1,
+      "explanation": "Com a estrutura 'não só... mas também', os núcleos do sujeito ('o diretor' e 'os assessores') somam-se. Como o sujeito passa a ser plural pela adição de ambos os elementos, a forma verbal correta no plural é <u>estavam</u>."
+    },
+    {
+      "question": "Em relação à frase '<u>Tanto o professor quanto os alunos aprovaram o novo calendário acadêmico</u>', assinale a afirmação correta sobre a concordância verbal aplicada:",
+      "options": [
+        "A - A frase está incorreta, pois a expressão 'tanto... quanto' exige o verbo no singular.",
+        "B - A frase está correta, pois a expressão 'tanto... quanto' possui valor aditivo e leva o verbo para o plural.",
+        "C - A frase seria corrigida substituindo 'aprovaram' por 'aprovou', obrigatoriamente.",
+        "D - O verbo deveria estar na 1ª pessoa do plural ('aprovamos')."
+      ],
+      "correct": 1,
+      "explanation": "A expressão correlativa 'tanto... quanto' soma o núcleo no singular ('o professor') com o núcleo no plural ('os alunos'). O verbo no plural (<u>aprovaram</u>) está perfeitamente correto de acordo com a norma-padrão."
+    },
+    {
+      "question": "Considere a frase: '<u>Não só a falta de investimento, como também a má gestão ________ os resultados da empresa</u>.' Qual alternativa preenche adequadamente a lacuna no <u>plural</u> de acordo com a regra de adição?",
+      "options": [
+        "A - prejudicou",
+        "B - prejudica",
+        "C - prejudicaram",
+        "D - prejudicará"
+      ],
+      "correct": 2,
+      "explanation": "A estrutura 'não só... como também' estabelece uma relação aditiva entre os dois núcleos no singular ('a falta de investimento' e 'a má gestão'). Ao somar os dois fatores, o verbo vai para o plural: <u>prejudicaram</u> (ou prejudicam)."
+    },
+    {
+      "question": "Análise a frase: '<u>Tanto a ciência quanto a tecnologia revolucionaram a medicina moderna</u>.' É correto afirmar que:",
+      "options": [
+        "A - O verbo está no plural porque a expressão 'tanto... quanto' une dois núcleos com valor aditivo.",
+        "B - O verbo deveria estar no singular, pois 'ciência' e 'tecnologia' são palavras femininas no singular.",
+        "C - Há erro de concordância verbal, devendo ser 'revolucionou'.",
+        "D - A concordância deveria ser feita com o termo antecedente 'medicina'."
+      ],
+      "correct": 0,
+      "explanation": "Mesmo quando os dois núcleos do sujeito estão no singular ('a ciência' e 'a tecnologia'), a ligação correlativa 'tanto... quanto' adiciona os termos, fazendo com que o sujeito composto exija o verbo no <u>plural</u> (revolucionaram)."
+    },
+    {
+      "question": "Assinale a alternativa em que a concordância verbal com a estrutura correlativa aditiva está <u>incorreta</u> segundo a norma-padrão preferencial:",
+      "options": [
+        "A - Tanto o clima quanto a altitude <u>influenciam</u> a vegetação local.",
+        "B - Não só o aluno, mas também o professor <u>participaram</u> do debate.",
+        "C - Não só os motoristas, como também os pedestres <u>deve</u> respeitar a sinalização.",
+        "D - Tanto a teoria quanto a prática <u>são</u> fundamentais para o aprendizado."
+      ],
+      "correct": 2,
+      "explanation": "Na opção C, a estrutura correlativa 'não só... como também' soma 'os motoristas' com 'os pedestres'. Portanto, o verbo no singular 'deve' está <u>incorreto</u>; o correto seria usar o plural <u>devem</u>."
+    },
+    {
+      "question": "Observe as duas construções abaixo:\nI. <u>Não só a mãe, mas também a filha viajaram nas férias</u>.\nII. <u>Não só a mãe, mas também a filha viajou nas férias</u>.\n\nSegundo os gramáticos modernos, sobre estas frases é correto afirmar:",
+      "options": [
+        "A - Apenas a frase I é aceita, pois o plural é estritamente obrigatório em estruturas aditivas.",
+        "B - Apenas a frase II é aceita, pois o verbo concorda com o núcleo mais próximo ('a filha').",
+        "C - A frase I representa a concordância preferencial no plural (pela ideia de soma), mas a frase II também é admitida por atração ao núcleo mais próximo.",
+        "D - Ambas estão incorretas, devendo o verbo ficar no infinitivo."
+      ],
+      "correct": 2,
+      "explanation": "Embora o plural (frase I) seja a regra geral e a escolha preferencial da norma-padrão por tratar-se de uma adição de sujeitos, muitos gramáticos também admitem o singular (frase II) pela concordância atrativa com o núcleo mais próximo quando este está no singular."
+    },
+    {
+      "question": "Qual das opções a seguir apresenta a concordância <u>correta</u> com a expressão '<u>não só... mas</u>'?",
+      "options": [
+        "A - Não só o Brasil, mas vários países da América Latina <u>enfrenta</u> desafios econômicos.",
+        "B - Não só o Brasil, mas vários países da América Latina <u>enfrentam</u> desafios econômicos.",
+        "C - Não só o Brasil, mas vários países da América Latina <u>enfrentaria</u> desafios econômicos.",
+        "D - Não só o Brasil, mas vários países da América Latina <u>enfrentou</u> desafios econômicos."
+      ],
+      "correct": 1,
+      "explanation": "Na oração, além da relação de adição criada por 'não só... mas', o segundo núcleo está no plural ('vários países'). Tanto pela regra de adição quanto pela concordância com o elemento plural, a forma correta é no plural: <u>enfrentam</u>."
+    },
+    {
+      "question": "Assinale a alternativa que preenche <u>adequadamente</u> as lacunas da frase: '<u>Tanto o prefeito quanto os vereadores ________ presentes à cerimônia, mas não só a imprensa, como também a população ________ sobre as propostas</u>.'",
+      "options": [
+        "A - <u>estavam</u> / <u>questionaram</u>",
+        "B - <u>estava</u> / <u>questionou</u>",
+        "C - <u>estava</u> / <u>questionaram</u>",
+        "D - <u>estavam</u> / <u>questionou-se</u>"
+      ],
+      "correct": 0,
+      "explanation": "Na primeira lacuna, 'tanto o prefeito quanto os vereadores' exige o verbo no plural (<u>estavam</u>). Na segunda lacuna, 'não só a imprensa, como também a população' envolve dois núcleos em relação de adição, exigindo a forma verbal no plural (<u>questionaram</u>)."
+    }
+  ]
+
 
 };
 

@@ -1,48 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Interativo</title>
-    <link rel="stylesheet" href="layout.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>Estudaí — questões para estudar</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Quiz Interativo</h1>
-    <div id="quiz-container">
-        <select id="subject-select">
-            <option value="">Todos os assuntos</option>
-            <option value="pronomes">Pronomes</option>
-            <option value="col_pronomes_ob">Pronomes Oblíquos Átonos</option>
-            <option value="regras_pronomes">Regras Pronomes</option>
-            <option value="crase">Crase</option>
-            <option value="PortuguesSintaxe">Português Sintaxe</option>
-            <option value="sintaxe_1">Sintaxe 1</option>
-            <option value="OracoesSubordinadas">Oraçoes Subordinadas</option>
-            <option value="OracoesCoordenadas">Oraçoes Coordenadas</option>
-            <option value="vozes_verbais">Vozes Verbais</option>
-            <option value="concordancia_nominal">Concordancia Nominal</option>
-            <option value="concordanciaverbal">Concordancia Verbal</option>
-            <option value="art_prep_pron">ARTIGO DEFINIDO X PREPOSIÇÃO X PRONOME DEMONSTRATIVO X PPO ÁTONO</option>
-            <option value="aa_cn_ob_pj">Funçoes sintaticas AA x OB x NC X PJ</option>
-          
-
-        </select>
-
-        <div id="quiz-content">
-            <div id="question-container"></div>
-            <button id="answer-btn">Responder</button>
-        </div>
-        <div id="score-counter">
-            Corretas: <span id="correct-count">0</span> | Erradas: <span id="wrong-count">0</span>
-        </div>
-        <div id="navigation">
-            <button id="prev-btn" disabled>Anterior</button>
-            <button id="next-btn">Próxima</button>
-        </div>
-        <button id="submit-btn" style="display: none;">Enviar Respostas</button>
-        <div id="result"></div>
-	<div id="nquestoes"></div>
-
-    <script src="script.js"></script>
+  <button class="mobile-menu" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" aria-label="Estudaí, início"><span class="brand-mark">e</span><span>studa<span class="brand-dot">.</span></span></a>
+      <p class="nav-label">SUAS DISCIPLINAS</p>
+      <nav id="subjectNav" aria-label="Disciplinas"></nav>
+      <div class="sidebar-note"><span>✦</span><p>Um passo de cada vez.<br><strong>Você está evoluindo!</strong></p></div>
+      <div class="profile"><div class="avatar">E</div><div><strong>Meu espaço</strong><small>Hora de aprender</small></div></div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><div class="breadcrumb" id="breadcrumb">Estudo <span>/</span> Português</div><div class="topbar-actions"><button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar tema escuro" title="Alternar tema"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Modo escuro</span></button><div class="top-badge"><span class="status-dot"></span> SEU ESPAÇO DE ESTUDOS</div></div></header>
+      <section class="content">
+        
+        <h1 id="pageTitle"></h1>
+        <p class="intro" id="pageIntro">Escolha uma disciplina e um assunto para começar a praticar.</p>
+        <section class="subjects-section">
+          <div class="section-heading"><div><span class="step-number">01</span><h2>Escolha um assunto</h2></div><label class="random-switch-label" for="randomToggle"><span>Questões aleatórias</span><input class="switch-input" id="randomToggle" type="checkbox" role="switch" aria-label="Ativar questões aleatórias da disciplina"><span class="switch-track" aria-hidden="true"><span class="switch-thumb"></span></span></label></div>
+          <div class="topic-list" id="topicList"></div>
+        </section>
+        <section class="quiz-card" id="quizCard" hidden>
+          <div class="quiz-top"><div class="quiz-meta"><span class="question-tag" id="questionTag">QUESTÃO 01</span><span class="subject-tag" id="subjectTag"></span></div><span class="progress-label" id="progressLabel"></span></div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <h2 class="question-text" id="questionText"></h2>
+          <div class="options" id="options"></div>
+          <div class="answer-feedback" id="feedback" hidden aria-live="polite"></div>
+          <div class="quiz-actions"><div class="question-navigation"><button class="nav-question-button" id="previousQuestion" type="button" disabled>← Voltar</button><button class="nav-question-button primary" id="nextQuestion" type="button">Avançar →</button></div><button class="restart-button" id="restartQuiz">Recomeçar assunto</button></div>
+        </section>
+        <footer>FEITO PARA APRENDER · UM DIA DE CADA VEZ <span>✳</span></footer>
+      </section>
+    </main>
+  </div>
+  <div class="scrim" id="scrim"></div>
+  <script src="app.js"></script>
 </body>
 </html>
+
+
+
