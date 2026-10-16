@@ -2,7 +2,121 @@ const disciplines = {
   portugues: {
     label: 'Português', icon: '✎', color: 'violet',
     topics: {
-                 sintaxe_curso:{    
+  
+     "colocacao_pronominal": {
+       title:"Colocação Pronominal", questions:[
+            {
+      "question": "1 - Assinale a alternativa em que o termo entre parênteses substitui corretamente a expressão.",
+      "options": [
+        "A - cruzaram os mares (cruzaram-los)",
+        "B - largasse as ruas (largasse-as)",
+        "C - levar um saveiro (leva-o)",
+        "D - ajudava as viúvas (ajudava-nas)",
+        "E - fumava um cachimbo (fumava-no)"
+      ],
+      "correct": 1,
+      "explanation": "I. A - Incorreta. O verbo 'cruzar' termina em -r. Na substituição pelo pronome, o -r é eliminado e o pronome assume a forma -los: 'cruzaram-nos' é a forma adequada para 'cruzaram os mares', pois o verbo está no pretérito perfeito e a forma resultante é 'cruzaram-nos'.<br/>II. B - Correta. O verbo 'largasse' termina em vogal, portanto o pronome 'as' é ligado diretamente ao verbo por hífen: 'largasse-as'.<br/>III. C - Incorreta. O infinitivo 'levar' perde o -r antes do pronome, que assume a forma -lo. O correto é 'levá-lo'.<br/>IV. D - Incorreta. A forma 'ajudava-nas' não é a substituição adequada, pois o verbo termina em vogal e o pronome deve ser ligado diretamente: 'ajudava-as'.<br/>V. E - Incorreta. Como 'fumava' termina em vogal, a forma adequada é 'fumava-o', e não 'fumava-no'."
+    },
+    {
+      "question": "2 - Atente para as frases abaixo. I. Todos queremos defender nossa liberdade, tornar-lhe imune a qualquer restrição, proclamar-lhe aos quatro ventos. II. Sim, o egoísmo é uma inclinação natural, mas acatar-lhe é curvar-se a um instinto primitivo; cumpre, a todo custo, restringi-lo a violência. III. As palavras daquela frase ressoaram fortemente em nossa consciência arrogante, abalaram-na, retiraram-lhe o falso triunfalismo. Está plenamente adequado o emprego de pronomes em:",
+      "options": [
+        "A - I, II e III.",
+        "B - I e II, apenas.",
+        "C - II e III, apenas.",
+        "D - I e III, apenas.",
+        "E - II, apenas."
+      ],
+      "correct": 4,
+      "explanation": "I. Incorreta. Em 'tornar-lhe imune', o pronome 'lhe' não funciona adequadamente como complemento de 'tornar' nesse contexto. A construção recomendada é 'torná-la imune'. Além disso, em 'proclamar-lhe aos quatro ventos', o pronome não substitui corretamente a ideia expressa; seria mais adequado 'proclamá-la aos quatro ventos'.<br/>II. Correta segundo o gabarito fornecido. A construção 'acatar-lhe' é tradicionalmente considerada inadequada por causa da regência de 'acatar', que é verbo transitivo direto. O correto seria 'acatá-lo'. Entretanto, 'restringi-lo a violência' também apresenta problema de sentido e regência; a forma adequada dependeria da intenção, como 'restringir a violência'. Portanto, o gabarito E merece ressalva, pois a frase II, tal como transcrita, também apresenta inadequações.<br/>III. Incorreta. Os pronomes 'na' em 'abalaram-na' e 'lhe' em 'retiraram-lhe o falso triunfalismo' estão corretamente empregados. O pronome 'na' retoma 'as palavras', e 'lhe' indica a pessoa ou entidade de quem se retirou algo. A frase III está adequada."
+    },
+    {
+      "question": "3 - Assinale a frase em que há correção no emprego do pronome 'lhe' / 'lhes'.",
+      "options": [
+        "A - A pessoas com disposição alegre, tudo de bom lhes acontece.",
+        "B - A polícia demorou mais de um dia para prender-lhes.",
+        "C - Viram-lhes chegar antes dos demais convidados.",
+        "D - Informaram-lhes do ocorrido logo que chegaram.",
+        "E - Nomearam-lhes chefes das portarias do prédio."
+      ],
+      "correct": 0,
+      "explanation": "I. A - Correta. O pronome 'lhes' retoma 'a pessoas com disposição alegre' e funciona como complemento indireto, indicando a quem acontecem coisas boas. A construção é aceita na norma-padrão.<br/>II. B - Incorreta. O verbo 'prender' é transitivo direto e exige os pronomes 'os' ou 'as', conforme o referente. O correto seria 'prendê-los' ou 'prendê-las'.<br/>III. C - Incorreta. Na construção 'viram-lhes chegar', o verbo 'ver' exige um complemento direto. O correto seria 'viram-nos chegar' ou 'viram-nas chegar', conforme o referente.<br/>IV. D - Incorreta. Na norma-padrão tradicional, 'informar' pode ser construído como 'informar alguém de algo'. Assim, a forma mais adequada é 'Informaram-nos do ocorrido', usando o pronome de objeto direto para a pessoa informada.<br/>V. E - Incorreta. O verbo 'nomear', nesse contexto, é transitivo direto e predicativo do objeto. O correto seria 'Nomearam-nos chefes das portarias do prédio', caso o referente seja masculino plural."
+    },
+    {
+      "question": "(BB) Colocação incorreta:",
+      "options": [
+        "A - Preciso que venhas ver-me.",
+        "B - O certo é fazê-los sair.",
+        "C - Sempre negaram-me tudo.",
+        "D - As espécies se atraem."
+      ],
+      "correct": 2,
+      "explanation": "A - Correta. O verbo no infinitivo admite a ênclise do pronome: ver-me.<br/>B - Correta. O infinitivo permite a ênclise: fazê-los.<br/>C - Incorreta. O advérbio 'sempre', em posição anterior ao verbo, favorece a próclise. A forma adequada é 'Sempre me negaram tudo'.<br/>D - Correta. A próclise é admitida e usual nessa construção: 'As espécies se atraem'."
+    },
+    {
+      "question": "(EPCAR) Imagine o pronome entre parênteses no lugar devido e aponte onde não deve haver próclise:",
+      "options": [
+        "A - Não entristeças. (te)",
+        "B - Deus favoreça. (o)",
+        "C - Espero que faças justiça. (se)",
+        "D - Meus amigos, apresentem em posição de sentido. (se)",
+        "E - Ninguém faça de rogado. (se)"
+      ],
+      "correct": 3,
+      "explanation": "A - A forma correta é 'Não te entristeças'. A palavra negativa 'não' exige próclise.<br/>B - A forma correta é 'Deus o favoreça'. O pronome pode aparecer antes do verbo, embora não haja fator obrigatório de próclise.<br/>C - A forma correta é 'Espero que se faça justiça'. A conjunção subordinativa 'que' atrai o pronome, exigindo próclise.<br/>D - A forma correta é 'Meus amigos, apresentem-se em posição de sentido'. No início de uma oração imperativa afirmativa, sem palavra atrativa, emprega-se a ênclise, e não a próclise.<br/>E - A forma adequada é 'Ninguém se faça de rogado'. O pronome indefinido 'ninguém' atrai o pronome oblíquo, exigindo próclise."
+    },
+    {
+      "question": "(TTN) Assinale a frase em que a colocação do pronome pessoal oblíquo não obedece às normas do português padrão:",
+      "options": [
+        "A - Essas vitórias pouco importam; alcançaram-nas os que tinham mais dinheiro.",
+        "B - Entregaram-me a encomenda ontem, resta agora a vocês oferecerem-na ao chefe.",
+        "C - Ele me evitava constantemente!... Ter-lhe-iam falado a meu respeito?",
+        "D - Estamos nos sentido desolados: temos prevenido-o várias vezes e ele não nos escuta.",
+        "E - O Presidente cumprimentou o Vice dizendo: - Fostes incumbido de difícil missão, mas cumpriste-la com denodo e eficiência."
+      ],
+      "correct": 3,
+      "explanation": "A - Correta. A ênclise em 'alcançaram-nas' é adequada, pois o verbo inicia a oração após o ponto e vírgula, sem palavra atrativa.<br/>B - Correta. A ênclise em 'entregaram-me' e em 'oferecerem-na' está de acordo com a norma-padrão.<br/>C - Correta. A próclise em 'me evitava' é admitida no português brasileiro, e a mesóclise em 'ter-lhe-iam' é adequada ao futuro do pretérito quando não há fator de próclise.<br/>D - Incorreta. A construção 'temos prevenido-o' desrespeita a colocação pronominal, pois o particípio não admite pronome átono posposto. A forma adequada é 'temos-no prevenido' ou, de maneira mais natural, 'temos prevenido ele' no uso coloquial brasileiro, embora a forma recomendada pela norma-padrão seja 'temo-lo prevenido'.<br/>E - Correta quanto à colocação pronominal pretendida pelo exercício: 'cumpriste-la' apresenta o pronome em ênclise. Observação: a forma verbal e a combinação pronominal podem suscitar discussão normativa; a alternativa D é a resposta tradicionalmente indicada."
+    },
+        {
+      "question": "(FTU) A frase em que a colocação do pronome átono está em desacordo com as normas vigentes no português padrão do Brasil é:",
+      "options": [
+        "A - A ferrovia integrar-se-á nos demais sistemas viários.",
+        "B - A ferrovia deveria-se integrar nos demais sistemas viários.",
+        "C - A ferrovia não tem se integrado nos demais sistemas viários.",
+        "D - A ferrovia estaria integrando-se nos demais sistemas viários.",
+        "E - A ferrovia não consegue integrar-se nos demais sistemas viários."
+      ],
+      "correct": 1,
+      "explanation": "A - Correta. A mesóclise em 'integrar-se-á' é adequada ao futuro do presente quando não há palavra atrativa.<br/>B - Incorreta. Na locução verbal 'deveria integrar', a colocação do pronome entre o verbo auxiliar e o infinitivo, sem hífen, não segue a forma prescrita pela norma tradicional. A forma recomendada é 'A ferrovia deveria integrar-se nos demais sistemas viários'.<br/>C - Correta. A palavra negativa 'não' favorece a próclise. Na locução verbal com particípio, a colocação pode variar conforme a construção; a forma mais recomendada é 'A ferrovia não se tem integrado nos demais sistemas viários'.<br/>D - Correta. A ênclise ao gerúndio em 'integrando-se' é aceita na locução verbal.<br/>E - Correta. O infinitivo admite a ênclise em 'integrar-se', e a construção 'consegue integrar-se' está de acordo com a norma-padrão."
+    },
+    {
+      "question": "(FFCL-SANTO ANDRÉ) Assinale a alternativa correta:",
+      "options": [
+        "A - A solução agradou-lhe.",
+        "B - Eles diriam-se injuriados.",
+        "C - Ninguém conhece-me bem.",
+        "D - Darei-te o que quiseres.",
+        "E - Quem contou-te isso?"
+      ],
+      "correct": 0,
+      "explanation": "A - Correta. A ênclise em 'agradou-lhe' é adequada, pois o verbo inicia a oração e não há palavra atrativa.<br/>B - Incorreta. O futuro do pretérito favorece a mesóclise na ausência de palavra atrativa. A forma tradicional é 'Eles dir-se-iam injuriados'.<br/>C - Incorreta. O pronome indefinido 'ninguém' exige próclise. O correto é 'Ninguém me conhece bem'.<br/>D - Incorreta. O futuro do presente, sem palavra atrativa, recomenda a mesóclise na norma tradicional. A forma é 'Dar-te-ei o que quiseres'.<br/>E - Incorreta. O pronome interrogativo 'quem' atrai o pronome oblíquo. O correto é 'Quem te contou isso?'."
+    },
+    {
+      "question": "(CESGRANRIO) Indique a estrutura verbal que contraria a norma culta:",
+      "options": [
+        "A - Ter-me-ão elogiado.",
+        "B - Tinha-se lembrado.",
+        "C - Teria-me lembrado.",
+        "D - Temo-nos esquecido.",
+        "E - Tenho-me alegrado."
+      ],
+      "correct": 2,
+      "explanation": "A - Correta. A mesóclise em 'ter-me-ão' é adequada ao futuro do presente, na ausência de palavra atrativa.<br/>B - Correta. A colocação do pronome após o verbo auxiliar em 'tinha-se lembrado' é admitida pela norma tradicional.<br/>C - Incorreta. Na locução verbal no futuro do pretérito, sem palavra atrativa, a norma tradicional recomenda a mesóclise: 'Ter-me-ia lembrado'. Também se admite, em construções com locução verbal, a colocação do pronome junto ao infinitivo: 'Teria me lembrado'. A forma 'Teria-me lembrado' é a que o exercício considera inadequada.<br/>D - Correta. A ênclise ao verbo auxiliar em 'temo-nos esquecido' é aceita na norma-padrão.<br/>E - Correta. A colocação do pronome após o auxiliar em 'tenho-me alegrado' é adequada à norma tradicional."
+    },
+  ]
+  },
+
+
+      sintaxe_curso:{    
  title:"Sintaxe curso", questions:[
     {
     "question": "1. (BIG ADVICE – 2017 – Nível Superior)<br/>“Havia dinheiro nos baús.” Temos:",
@@ -1406,6 +1520,8 @@ const disciplines = {
   }
 ],
   },
+
+
     }
   },
   matematica: {
