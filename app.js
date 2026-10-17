@@ -1691,6 +1691,7 @@ let activeDiscipline = 'portugues';
 let activeContagemSection = null;
 let activeContagemTopicKey = null;
 let currentQuestionSubject = '';
+let currentListHeading = 'Escolha um assunto';
 let activeTopic = null;
 let questionIndex = 0;
 let answered = false;
@@ -1734,6 +1735,23 @@ function renderNavigation() {
   subjectNav.append(contagemGroup);
 }
 
+function showQuestionView() {
+  topicList.hidden = true;
+  document.querySelector('#topicHeading').hidden = true;
+  document.querySelector('#backToTopicsLabel').textContent = currentListHeading;
+  document.querySelector('#backToTopics').hidden = false;
+}
+
+function showTopicList() {
+  randomMode = false;
+  document.querySelector('#randomToggle').checked = false;
+  quizCard.hidden = true;
+  topicList.hidden = false;
+  document.querySelector('#topicHeading').hidden = false;
+  document.querySelector('#backToTopics').hidden = true;
+  document.querySelector('#topicHeading').textContent = currentListHeading;
+  document.querySelector('.subjects-section').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 function selectContagemSection(key) {
   const section = contagemSections[key];
   activeContagemSection = key;
@@ -1746,12 +1764,15 @@ function selectContagemSection(key) {
   document.querySelector('#randomToggle').checked = false;
   document.querySelector('.random-switch-label').hidden = true;
   document.querySelector('#topicList').hidden = false;
+  document.querySelector('#topicHeading').hidden = false;
+  document.querySelector('#backToTopics').hidden = true;
   document.querySelector('#breadcrumb').innerHTML = `Estudo <span>/</span> Contagem <span>/</span> ${section.label}`;
   document.querySelector('#pageTitle').textContent = section.label;
   document.querySelector('#pageIntro').textContent = key === 'codigo_posturas'
     ? 'Selecione o capítulo para praticar as questões.'
     : 'Disciplinas relacionadas para organizar e adicionar suas questões.';
-  document.querySelector('.section-heading h2').textContent = key === 'codigo_posturas' ? 'Capítulos disponíveis' : 'Disciplinas relacionadas';
+  currentListHeading = key === 'codigo_posturas' ? 'Capítulos disponíveis' : 'Disciplinas relacionadas';
+  document.querySelector('#topicHeading').textContent = currentListHeading;
   topicList.innerHTML = section.disciplines.map((discipline, index) => {
     if (discipline.questions) {
       return `<button class="topic-card contagem-question-card" type="button" data-contagem-topic="${discipline.key}">
@@ -1785,6 +1806,7 @@ function startContagemTopic(key) {
   questionIndex = 0;
   answered = false;
   quizCard.hidden = false;
+  showQuestionView();
   renderQuestion();
   quizCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -1796,7 +1818,10 @@ function selectDiscipline(key) {
   quizCard.hidden = true;
   document.querySelector('.random-switch-label').hidden = false;
   document.querySelector('#topicList').hidden = false;
-  document.querySelector('.section-heading h2').textContent = 'Escolha um assunto';
+  document.querySelector('#topicHeading').hidden = false;
+  document.querySelector('#backToTopics').hidden = true;
+  currentListHeading = 'Escolha um assunto';
+  document.querySelector('#topicHeading').textContent = currentListHeading;
   document.querySelector('#breadcrumb').innerHTML = `Estudo <span>/</span> ${disciplines[key].label}`;
   document.querySelector('#pageTitle').innerHTML = `Vamos estudar ${disciplines[key].label.toLowerCase()}<span class="title-dot">.</span>`;
   document.querySelector('#pageIntro').textContent = 'Escolha um assunto e pratique com questões rápidas e explicações.';
@@ -1828,6 +1853,7 @@ function startTopic(key) {
   answered = false;
   renderTopics();
   quizCard.hidden = false;
+  showQuestionView();
   renderQuestion();
   quizCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
@@ -1847,7 +1873,7 @@ function startRandomQuiz() {
   questionIndex = 0;
   answered = false;
   quizCard.hidden = false;
-  document.querySelector('#topicList').hidden = true;
+  showQuestionView();
   document.querySelector('#questionText').scrollIntoView({ behavior: 'smooth', block: 'center' });
   renderQuestion();
 }
@@ -1912,6 +1938,8 @@ document.querySelector('#previousQuestion').addEventListener('click', () => {
   }
 });
 
+document.querySelector('#backToTopics').addEventListener('click', showTopicList);
+
 document.querySelector('#restartQuiz').addEventListener('click', () => {
   if (randomMode) startRandomQuiz();
   else if (activeContagemTopicKey) startContagemTopic(activeContagemTopicKey);
@@ -1953,13 +1981,14 @@ document.querySelector('#randomToggle').addEventListener('change', event => {
   if (event.target.checked) {
     startRandomQuiz();
   } else {
-    randomMode = false;
     activeTopic = null;
     currentQuestions = [];
-    quizCard.hidden = true;
-    document.querySelector('#topicList').hidden = false;
+    showTopicList();
+
   }
 });
+
+
 
 
 

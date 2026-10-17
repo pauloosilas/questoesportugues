@@ -24,7 +24,7 @@
         <h1 id="pageTitle"></h1>
         <p class="intro" id="pageIntro">Escolha uma disciplina e um assunto para começar a praticar.</p>
         <section class="subjects-section">
-          <div class="section-heading"><div><span class="step-number">01</span><h2>Escolha um assunto</h2></div><label class="random-switch-label" for="randomToggle"><span>Questões aleatórias</span><input class="switch-input" id="randomToggle" type="checkbox" role="switch" aria-label="Ativar questões aleatórias da disciplina"><span class="switch-track" aria-hidden="true"><span class="switch-thumb"></span></span></label></div>
+          <div class="section-heading"><div class="section-heading-label"><span class="step-number">01</span><h2 id="topicHeading">Escolha um assunto</h2><button class="topic-back-button" id="backToTopics" type="button" hidden><span class="back-arrow" aria-hidden="true">←</span><span id="backToTopicsLabel">Escolha um assunto</span></button></div><label class="random-switch-label" for="randomToggle"><span>Questões aleatórias</span><input class="switch-input" id="randomToggle" type="checkbox" role="switch" aria-label="Ativar questões aleatórias da disciplina"><span class="switch-track" aria-hidden="true"><span class="switch-thumb"></span></span></label></div>
           <div class="topic-list" id="topicList"></div>
         </section>
         <section class="quiz-card" id="quizCard" hidden>
@@ -43,6 +43,7 @@
   <script src="app.js"></script>
 </body>
 </html>
+
 
 
 
