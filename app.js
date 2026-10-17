@@ -18,16 +18,16 @@ const disciplines = {
       "explanation": "I. A - Incorreta. O verbo 'cruzar' termina em -r. Na substituição pelo pronome, o -r é eliminado e o pronome assume a forma -los: 'cruzaram-nos' é a forma adequada para 'cruzaram os mares', pois o verbo está no pretérito perfeito e a forma resultante é 'cruzaram-nos'.<br/>II. B - Correta. O verbo 'largasse' termina em vogal, portanto o pronome 'as' é ligado diretamente ao verbo por hífen: 'largasse-as'.<br/>III. C - Incorreta. O infinitivo 'levar' perde o -r antes do pronome, que assume a forma -lo. O correto é 'levá-lo'.<br/>IV. D - Incorreta. A forma 'ajudava-nas' não é a substituição adequada, pois o verbo termina em vogal e o pronome deve ser ligado diretamente: 'ajudava-as'.<br/>V. E - Incorreta. Como 'fumava' termina em vogal, a forma adequada é 'fumava-o', e não 'fumava-no'."
     },
     {
-      "question": "2 - Atente para as frases abaixo. I. Todos queremos defender nossa liberdade, tornar-lhe imune a qualquer restrição, proclamar-lhe aos quatro ventos. II. Sim, o egoísmo é uma inclinação natural, mas acatar-lhe é curvar-se a um instinto primitivo; cumpre, a todo custo, restringi-lo a violência. III. As palavras daquela frase ressoaram fortemente em nossa consciência arrogante, abalaram-na, retiraram-lhe o falso triunfalismo. Está plenamente adequado o emprego de pronomes em:",
+      "question": "2 - Atente para as frases abaixo. <br/>I. Todos queremos defender nossa liberdade, tornar-lhe imune a qualquer restrição, proclamar-lhe aos quatro ventos. <br/> II. Sim, o egoísmo é uma inclinação natural, mas acatar-lhe é curvar-se a um instinto primitivo; cumpre, a todo custo, restringi-lo a violência.<br/> III. As palavras daquela frase ressoaram fortemente em nossa consciência arrogante, abalaram-na, retiraram-lhe o falso triunfalismo. Está plenamente adequado o emprego de pronomes em:",
       "options": [
         "A - I, II e III.",
         "B - I e II, apenas.",
         "C - II e III, apenas.",
         "D - I e III, apenas.",
-        "E - II, apenas."
+        "E - III, apenas."
       ],
       "correct": 4,
-      "explanation": "I. Incorreta. Em 'tornar-lhe imune', o pronome 'lhe' não funciona adequadamente como complemento de 'tornar' nesse contexto. A construção recomendada é 'torná-la imune'. Além disso, em 'proclamar-lhe aos quatro ventos', o pronome não substitui corretamente a ideia expressa; seria mais adequado 'proclamá-la aos quatro ventos'.<br/>II. Correta segundo o gabarito fornecido. A construção 'acatar-lhe' é tradicionalmente considerada inadequada por causa da regência de 'acatar', que é verbo transitivo direto. O correto seria 'acatá-lo'. Entretanto, 'restringi-lo a violência' também apresenta problema de sentido e regência; a forma adequada dependeria da intenção, como 'restringir a violência'. Portanto, o gabarito E merece ressalva, pois a frase II, tal como transcrita, também apresenta inadequações.<br/>III. Incorreta. Os pronomes 'na' em 'abalaram-na' e 'lhe' em 'retiraram-lhe o falso triunfalismo' estão corretamente empregados. O pronome 'na' retoma 'as palavras', e 'lhe' indica a pessoa ou entidade de quem se retirou algo. A frase III está adequada."
+      "explanation": "• Frase I (Incorreta): O termo retoma 'nossa liberdade' (objeto direto, sem preposição). O correto seria usar o pronome oblíquo átono a (torná-la imune, proclamá-la) e não o pronome lhe. <br />• Frase II (Incorreta): O verbo 'acatar' é transitivo direto (acatar o egoísmo), exigindo o pronome o (acatá-lo), e não lhe. Além disso, há erro na crase de 'restringi-lo à violência'. <br />• Frase III (Correta): O pronome na em 'abalaram-na' retoma corretamente 'nossa consciência arrogante' (com a terminação verbal em -am, o pronome a vira -na). Já o lhe em 'retiraram-lhe' exerce valor possessivo, equivalente a 'retiraram dela o falso triunfalismo'."
     },
     {
       "question": "3 - Assinale a frase em que há correção no emprego do pronome 'lhe' / 'lhes'.",
@@ -1541,54 +1541,156 @@ const disciplines = {
       ]}
     }
   },
-  ciencias: { label: 'Ciências', icon: '⚗', color: 'green', topics: {
-    corpo: { title: 'Corpo humano', icon: '♡', questions: [
-      { question: 'Qual sistema do corpo é responsável por transportar oxigênio e nutrientes pelo organismo?', options: ['A - Sistema digestório', 'B - Sistema circulatório', 'C - Sistema nervoso', 'D - Sistema esquelético'], correct: 1, explanation: 'O sistema circulatório, formado pelo coração e vasos sanguíneos, distribui sangue, oxigênio e nutrientes pelo corpo.' },
-      { question: 'Qual órgão bombeia o sangue para o corpo?', options: ['A - Pulmão', 'B - Fígado', 'C - Coração', 'D - Estômago'], correct: 2, explanation: 'O coração é um músculo que bombeia o sangue através dos vasos sanguíneos.' }
-    ]},
-    ecologia: { title: 'Ecologia', icon: '♧', questions: [
-      { question: 'Em uma cadeia alimentar, os produtores são geralmente:', options: ['A - plantas e algas.', 'B - animais carnívoros.', 'C - fungos decompositores.', 'D - consumidores secundários.'], correct: 0, explanation: 'Plantas e algas produzem seu próprio alimento, em geral por meio da fotossíntese, e formam a base de muitas cadeias alimentares.' },
-      { question: 'Qual é uma atitude que ajuda a reduzir a produção de lixo?', options: ['A - Usar descartáveis em todas as refeições.', 'B - Reutilizar embalagens sempre que possível.', 'C - Misturar pilhas ao lixo comum.', 'D - Descartar objetos ainda úteis.'], correct: 1, explanation: 'Reutilizar prolonga a vida útil dos materiais e reduz a quantidade de resíduos descartados.' }
-    ]},
-    materia: { title: 'Matéria e energia', icon: '⚡', questions: [
-      { question: 'A passagem da água do estado líquido para o gasoso é chamada de:', options: ['A - solidificação.', 'B - condensação.', 'C - vaporização.', 'D - fusão.'], correct: 2, explanation: 'Vaporização é a mudança do estado líquido para o gasoso. Evaporação e ebulição são formas de vaporização.' },
-      { question: 'Qual fonte de energia é renovável?', options: ['A - Carvão mineral', 'B - Petróleo', 'C - Gás natural', 'D - Energia solar'], correct: 3, explanation: 'A energia solar vem da luz do Sol, uma fonte naturalmente reposta e considerada renovável.' }
-    ]}
-  }},
-  historia: { label: 'História', icon: '◷', color: 'orange', topics: {
-    brasil: { title: 'Brasil Colônia', icon: '⚑', questions: [
-      { question: 'Qual atividade econômica marcou o início da colonização portuguesa no Brasil?', options: ['A - Extração do pau-brasil', 'B - Cultivo de café', 'C - Mineração de ouro', 'D - Produção de borracha'], correct: 0, explanation: 'Nas primeiras décadas da colonização, os portugueses exploraram principalmente o pau-brasil, obtido com trabalho indígena.' },
-      { question: 'Em que ano os portugueses chegaram ao território que hoje chamamos Brasil?', options: ['A - 1492', 'B - 1500', 'C - 1530', 'D - 1822'], correct: 1, explanation: 'A expedição comandada por Pedro Álvares Cabral chegou ao litoral em 1500.' }
-    ]},
-    antiguidade: { title: 'Antiguidade', icon: '⌂', questions: [
-      { question: 'Qual civilização antiga se desenvolveu às margens do rio Nilo?', options: ['A - Romana', 'B - Egípcia', 'C - Grega', 'D - Fenícia'], correct: 1, explanation: 'O rio Nilo foi fundamental para a agricultura, o transporte e a vida no Egito Antigo.' },
-      { question: 'A democracia teve origem na antiga:', options: ['A - Atenas.', 'B - Roma.', 'C - Esparta.', 'D - Cartago.'], correct: 0, explanation: 'Atenas desenvolveu uma forma antiga de democracia, embora a participação fosse restrita a uma parcela da população.' }
-    ]},
-    republica: { title: 'República no Brasil', icon: '⚖', questions: [
-      { question: 'Em que ano foi proclamada a República no Brasil?', options: ['A - 1822', 'B - 1888', 'C - 1889', 'D - 1891'], correct: 2, explanation: 'A República foi proclamada em 15 de novembro de 1889, encerrando o período monárquico.' },
-      { question: 'Quem foi o primeiro presidente do Brasil?', options: ['A - Dom Pedro II', 'B - Deodoro da Fonseca', 'C - Floriano Peixoto', 'D - Prudente de Morais'], correct: 1, explanation: 'Marechal Deodoro da Fonseca liderou o movimento e tornou-se o primeiro presidente do Brasil.' }
-    ]}
-  }},
-  geografia: { label: 'Geografia', icon: '◎', color: 'teal', topics: {
-    mapas: { title: 'Mapas e orientação', icon: '⌖', questions: [
-      { question: 'Em um mapa, a legenda serve para:', options: ['A - indicar o significado dos símbolos.', 'B - mostrar apenas a escala.', 'C - substituir o título.', 'D - marcar sempre o norte.'], correct: 0, explanation: 'A legenda explica o significado das cores, linhas e símbolos usados no mapa.' },
-      { question: 'Qual ponto cardeal fica oposto ao norte?', options: ['A - Leste', 'B - Oeste', 'C - Sul', 'D - Nordeste'], correct: 2, explanation: 'O sul é o ponto cardeal oposto ao norte.' }
-    ]},
-    clima: { title: 'Clima e tempo', icon: '☼', questions: [
-      { question: 'A previsão de chuva para amanhã descreve principalmente:', options: ['A - o clima de uma região.', 'B - o tempo atmosférico.', 'C - uma estação do ano.', 'D - uma zona térmica.'], correct: 1, explanation: 'Tempo atmosférico descreve as condições momentâneas da atmosfera. Clima é o padrão observado ao longo de muitos anos.' },
-      { question: 'Qual instrumento mede a temperatura do ar?', options: ['A - Pluviômetro', 'B - Barômetro', 'C - Termômetro', 'D - Anemômetro'], correct: 2, explanation: 'O termômetro mede a temperatura. O pluviômetro mede a chuva, o barômetro mede pressão e o anemômetro mede o vento.' }
-    ]},
-    brasilgeografia: { title: 'Geografia do Brasil', icon: '⌂', questions: [
-      { question: 'Qual é o maior bioma brasileiro em extensão?', options: ['A - Caatinga', 'B - Cerrado', 'C - Amazônia', 'D - Pantanal'], correct: 2, explanation: 'O bioma Amazônia é o maior do Brasil em extensão territorial.' },
-      { question: 'Qual oceano banha o litoral brasileiro?', options: ['A - Índico', 'B - Pacífico', 'C - Ártico', 'D - Atlântico'], correct: 3, explanation: 'O litoral brasileiro está voltado para o oceano Atlântico.' }
-    ]}
-  }}
+
+};
+
+const codigo_posturas = {
+  disposicoes_preliminares: {
+    title: 'Disposições Preliminares',
+    questions: [
+      {
+        question: 'Qual é o objetivo principal do Código de Posturas de Contagem, conforme o art. 1º?',
+        options: [
+          'A - Regulamentar exclusivamente o trânsito de veículos no Município.',
+          'B - Definir regras para atividades que possam causar repercussões urbanísticas no espaço público, em compatibilidade com o Plano Diretor.',
+          'C - Substituir todas as normas municipais sobre obras e meio ambiente.',
+          'D - Disciplinar somente atividades exercidas em propriedades privadas.'
+        ],
+        correct: 1,
+        explanation: 'O art. 1º institui o Código para definir regras aplicáveis a atividades com possíveis repercussões urbanísticas no espaço público, em compatibilidade com o Plano Diretor (Lei Complementar nº 362/2023).'
+      },
+      {
+        question: 'Qual alternativa descreve corretamente o espaço público e os conceitos definidos nos §§ 1º e 4º do art. 1º?',
+        options: [
+          'A - O espaço público inclui logradouros e espaços aéreo, visual e sonoro; espaço visual reúne elementos visíveis a partir do logradouro.',
+          'B - O espaço visual é formado por emissões sonoras, e o espaço sonoro por elementos visíveis.',
+          'C - O espaço aéreo fica abaixo do solo e não possui limites definidos pela legislação urbanística.',
+          'D - Somente os logradouros são considerados espaço público para os fins do Código.'
+        ],
+        correct: 0,
+        explanation: 'O § 1º inclui no espaço público os logradouros e os espaços aéreo, visual e sonoro. Pelo § 4º, espaço aéreo é a faixa acima do logradouro até os limites da legislação urbanística; espaço visual reúne elementos visíveis a partir dele; e espaço sonoro reúne emissões sonoras perceptíveis a partir dele.'
+      },
+      {
+        question: 'Segundo o art. 1º, § 3º, qual alternativa reúne apenas elementos que compõem um logradouro público?',
+        options: [
+          'A - Calçada, canteiro central e pista de rolamento; passagens exclusivas para pedestres e ciclistas; praças.',
+          'B - Calçadas, estacionamentos privados restritos e pátios de empresas.',
+          'C - Apenas pistas de rolamento e estacionamentos de uso exclusivo.',
+          'D - Espaços aéreos, fachadas privadas e áreas internas de edifícios.'
+        ],
+        correct: 0,
+        explanation: 'O § 3º define logradouro público como o conjunto da calçada, do canteiro central e da pista de rolamento nas vias públicas, além das passagens de uso exclusivo de pedestres e ciclistas e das praças.'
+      },
+      {
+        question: 'Qual afirmação está de acordo com o alcance e as exceções previstos no art. 1º?',
+        options: [
+          'A - O Código também se aplica à zona rural, no que couber, e não abrange matérias como trânsito, vigilância sanitária, meio ambiente, limpeza urbana e competência tributária, tratadas em legislação específica.',
+          'B - O Código aplica-se integralmente à zona rural e substitui a legislação ambiental e sanitária.',
+          'C - O Código regula o trânsito de veículos, mas não se aplica a atividades em espaço público.',
+          'D - A execução de qualquer obra em logradouro público está excluída, inclusive obras de infraestrutura.'
+        ],
+        correct: 0,
+        explanation: 'O § 2º exclui matérias sujeitas a legislação específica, incluindo trânsito, vigilância sanitária, matéria ambiental, limpeza urbana, obras (com ressalva para infraestrutura em logradouro público) e competência tributária. O § 5º estende a aplicação à zona rural no que couber.'
+      },
+      {
+        question: 'Qual afirmação descreve corretamente os espaços equiparados a logradouros públicos pelo art. 2º?',
+        options: [
+          'A - Apenas parques e jardins públicos, sem qualquer outra hipótese.',
+          'B - Espaços livres de uso público, parques e jardins públicos, certos estacionamentos e áreas de recuo, e monumentos municipais de livre acesso, observadas as condições legais.',
+          'C - Todos os estacionamentos privados, inclusive os de uso exclusivo de funcionários ou condôminos.',
+          'D - Qualquer propriedade privada, mesmo sem acesso livre à comunidade.'
+        ],
+        correct: 1,
+        explanation: 'O art. 2º equipara, para os fins do Código, espaços livres de uso público, parques e jardins públicos, hipóteses especificadas de estacionamentos e áreas de recuo, e monumentos municipais com entorno de livre acesso à comunidade. Estacionamentos de uso restrito ou exclusivo não são abrangidos. A autoridade competente pode atribuir destinação temporária diversa por ato motivado, inclusive para eventos ou atividades econômicas móveis devidamente licenciadas.'
+      },
+      {
+        question: 'Qual alternativa apresenta um princípio norteador previsto no art. 3º?',
+        options: [
+          'A - Prioridade permanente para atividades comerciais, ainda que impeçam a circulação.',
+          'B - Destinação prioritária dos logradouros à circulação de pessoas e veículos e convivência equilibrada entre usuários do espaço público.',
+          'C - Proibição de ações preventivas e de orientação aos cidadãos.',
+          'D - Exclusão da função social da cidade e da propriedade.'
+        ],
+        correct: 1,
+        explanation: 'O art. 3º prevê, entre outros princípios, a prioridade da circulação de pessoas e veículos, a convivência equilibrada, o controle proporcional de atividades prejudiciais, ações preventivas e de orientação, a função social da cidade e da propriedade e a proteção integral de crianças e adolescentes.'
+      },
+      {
+        question: 'Ao analisar autorização, permissão, concessão ou licença para uso do espaço público, quais critérios territoriais devem ser observados, conforme o art. 4º?',
+        options: [
+          'A - Somente a conveniência do interessado.',
+          'B - A compatibilidade com a zona de uso, as diretrizes territoriais do Plano Diretor e as demais normas urbanísticas municipais.',
+          'C - Apenas a disponibilidade de vagas para estacionamento.',
+          'D - Exclusivamente a legislação tributária federal.'
+        ],
+        correct: 1,
+        explanation: 'O art. 4º exige compatibilidade com a zona de uso, com as diretrizes territoriais do Plano Diretor e com as demais normas urbanísticas. Regulamentos só podem admitir usos compatíveis com as características urbanísticas, ambientais, históricas e funcionais da área. Sem previsão expressa de compatibilidade, a verificação e a decisão cabem ao COMPUR.'
+      },
+      {
+        question: 'Quando a utilização do espaço público restringe seu uso regular e livre, qual regra geral estabelece o art. 5º?',
+        options: [
+          'A - A utilização pode ocorrer sem qualquer ato da Administração Municipal.',
+          'B - É necessária licença, concessão, permissão ou autorização da Administração Municipal, conforme a Lei Complementar.',
+          'C - O silêncio da Administração sempre equivale à aprovação tácita.',
+          'D - A circulação de pedestres pode ser restringida sem justificativa.'
+        ],
+        correct: 1,
+        explanation: 'O art. 5º condiciona o uso que restrinja a utilização regular e livre do espaço público a licença, concessão, permissão ou autorização. Uso regular e livre inclui a circulação de pedestres e veículos nos logradouros e espaços equiparados, bem como as finalidades para as quais esses espaços foram concebidos.'
+      },
+      {
+        question: 'Sobre o indeferimento de um pedido e a renovação de licença ou permissão, assinale a alternativa correta.',
+        options: [
+          'A - O recurso contra qualquer indeferimento tem prazo de 30 dias e sempre efeito suspensivo.',
+          'B - O indeferimento deve ser claro e fundamentado; em regra, cabe recurso administrativo em 15 dias, sem efeito suspensivo.',
+          'C - A falta de resposta no prazo legal aprova automaticamente o pedido.',
+          'D - Em renovação, o recurso nunca pode ter efeito suspensivo, mesmo após atividade regular e ininterrupta por 24 meses.'
+        ],
+        correct: 1,
+        explanation: 'O § 2º do art. 5º prevê justificativa clara e fundamentada e recurso administrativo em 15 dias da ciência, em regra sem efeito suspensivo. O silêncio não configura aprovação tácita (§ 3º). Na renovação de licença ou permissão de atividade regular e ininterrupta por pelo menos 24 meses, o recurso contra decisão denegatória tem efeito suspensivo até a decisão final, salvo as exceções legais de impossibilidade fática, violação à saúde pública ou risco de dano ambiental (§ 4º).'
+      },
+      {
+        question: 'Qual alternativa distingue corretamente os atos de admissão de uso do espaço público definidos no art. 6º?',
+        options: [
+          'A - Concessão é sempre breve e precária; autorização exige licitação; licença depende de escolha discricionária.',
+          'B - Permissão é definitiva e exclusiva; concessão dispensa licitação; autorização é ato vinculado.',
+          'C - Concessão é precedida de licitação e pode conferir uso exclusivo ou preferencial por prazo determinado; permissão é discricionária e precária; autorização é unilateral, precária e de curta duração; licença é vinculada ao cumprimento de requisitos normativos.',
+          'D - Os quatro atos têm a mesma natureza e podem ser usados indistintamente.'
+        ],
+        correct: 2,
+        explanation: 'O art. 6º diferencia concessão, permissão, autorização e licença por natureza, finalidade e procedimento. A concessão é precedida de licitação; a permissão é discricionária e precária; a autorização é unilateral, precária e de curta duração; e a licença é ato vinculado ao cumprimento de requisitos normativos. Os parágrafos ainda preveem autorização legislativa para concessão que envolva bem imóvel, formalização e chamamento público nos casos aplicáveis, revogação motivada de permissões e autorizações e tratamento simplificado para atividades de baixo risco, MEIs, economia solidária e comércio popular.'
+      }
+    ]
+  }
+};
+const contagemSections = {
+  ocupacao_solo: {
+    label: 'Ocupação do Solo',
+    icon: '⌂',
+    disciplines: [
+      { title: 'Uso e ocupação do solo', description: 'Regras e parâmetros para o uso dos terrenos e das áreas urbanas.' },
+      { title: 'Zoneamento urbano', description: 'Organização dos usos e atividades no território.' },
+      { title: 'Parcelamento do solo', description: 'Loteamentos, desmembramentos e organização de lotes.' },
+      { title: 'Plano Diretor', description: 'Diretrizes gerais para o desenvolvimento e ordenamento municipal.' }
+    ]
+  },
+  codigo_posturas: {
+    label: 'Código de Posturas',
+    icon: '§',
+    disciplines: [{
+      key: 'disposicoes_preliminares',
+      title: codigo_posturas.disposicoes_preliminares.title,
+      description: 'Capítulo I · 10 questões',
+      questions: codigo_posturas.disposicoes_preliminares.questions
+    }]
+  }
 };
 
 const subjectNav = document.querySelector('#subjectNav');
 const topicList = document.querySelector('#topicList');
 const quizCard = document.querySelector('#quizCard');
 let activeDiscipline = 'portugues';
+let activeContagemSection = null;
+let activeContagemTopicKey = null;
+let currentQuestionSubject = '';
 let activeTopic = null;
 let questionIndex = 0;
 let answered = false;
@@ -1599,17 +1701,102 @@ function renderNavigation() {
   subjectNav.innerHTML = '';
   for (const [key, discipline] of Object.entries(disciplines)) {
     const button = document.createElement('button');
-    button.className = `nav-item${key === activeDiscipline ? ' active' : ''}`;
+    button.className = `nav-item${!activeContagemSection && key === activeDiscipline ? ' active' : ''}`;
     button.innerHTML = `<span class="nav-icon">${discipline.icon}</span><span>${discipline.label}</span>`;
     button.addEventListener('click', () => selectDiscipline(key));
     subjectNav.append(button);
   }
+
+  const contagemGroup = document.createElement('div');
+  contagemGroup.className = 'nav-group';
+  const groupButton = document.createElement('button');
+  groupButton.className = `nav-item nav-group-toggle${activeContagemSection ? ' active' : ''}`;
+  groupButton.type = 'button';
+  groupButton.setAttribute('aria-expanded', String(Boolean(activeContagemSection)));
+  groupButton.innerHTML = '<span class="nav-icon">⌖</span><span>Contagem</span><span class="nav-chevron">⌄</span>';
+  const submenu = document.createElement('div');
+  submenu.className = 'nav-submenu';
+  submenu.hidden = !activeContagemSection;
+  for (const [key, section] of Object.entries(contagemSections)) {
+    const item = document.createElement('button');
+    item.className = `nav-subitem${key === activeContagemSection ? ' active' : ''}`;
+    item.type = 'button';
+    item.textContent = section.label;
+    item.addEventListener('click', () => selectContagemSection(key));
+    submenu.append(item);
+  }
+  groupButton.addEventListener('click', () => {
+    const isExpanded = groupButton.getAttribute('aria-expanded') === 'true';
+    groupButton.setAttribute('aria-expanded', String(!isExpanded));
+    submenu.hidden = isExpanded;
+  });
+  contagemGroup.append(groupButton, submenu);
+  subjectNav.append(contagemGroup);
 }
 
+function selectContagemSection(key) {
+  const section = contagemSections[key];
+  activeContagemSection = key;
+  activeContagemTopicKey = null;
+  activeDiscipline = null;
+  activeTopic = null;
+  randomMode = false;
+  currentQuestions = [];
+  quizCard.hidden = true;
+  document.querySelector('#randomToggle').checked = false;
+  document.querySelector('.random-switch-label').hidden = true;
+  document.querySelector('#topicList').hidden = false;
+  document.querySelector('#breadcrumb').innerHTML = `Estudo <span>/</span> Contagem <span>/</span> ${section.label}`;
+  document.querySelector('#pageTitle').textContent = section.label;
+  document.querySelector('#pageIntro').textContent = key === 'codigo_posturas'
+    ? 'Selecione o capítulo para praticar as questões.'
+    : 'Disciplinas relacionadas para organizar e adicionar suas questões.';
+  document.querySelector('.section-heading h2').textContent = key === 'codigo_posturas' ? 'Capítulos disponíveis' : 'Disciplinas relacionadas';
+  topicList.innerHTML = section.disciplines.map((discipline, index) => {
+    if (discipline.questions) {
+      return `<button class="topic-card contagem-question-card" type="button" data-contagem-topic="${discipline.key}">
+        <span class="topic-icon">${section.icon}</span>
+        <div class="topic-name">${discipline.title}</div>
+        <div class="topic-count">${discipline.description}</div>
+        <span class="area-index">→</span>
+      </button>`;
+    }
+    return `<article class="topic-card informational-card">
+      <span class="topic-icon">${section.icon}</span>
+      <div class="topic-name">${discipline.title}</div>
+      <div class="topic-count">${discipline.description}</div>
+      <span class="area-index">0${index + 1}</span>
+    </article>`;
+  }).join('');
+  topicList.querySelectorAll('[data-contagem-topic]').forEach(button => {
+    button.addEventListener('click', () => startContagemTopic(button.dataset.contagemTopic));
+  });
+  renderNavigation();
+  closeMenu();
+}
+
+function startContagemTopic(key) {
+  const topic = codigo_posturas[key];
+  activeContagemTopicKey = key;
+  activeTopic = null;
+  randomMode = false;
+  currentQuestions = topic.questions;
+  currentQuestionSubject = topic.title;
+  questionIndex = 0;
+  answered = false;
+  quizCard.hidden = false;
+  renderQuestion();
+  quizCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
 function selectDiscipline(key) {
+  activeContagemSection = null;
+  activeContagemTopicKey = null;
   activeDiscipline = key;
   activeTopic = null;
   quizCard.hidden = true;
+  document.querySelector('.random-switch-label').hidden = false;
+  document.querySelector('#topicList').hidden = false;
+  document.querySelector('.section-heading h2').textContent = 'Escolha um assunto';
   document.querySelector('#breadcrumb').innerHTML = `Estudo <span>/</span> ${disciplines[key].label}`;
   document.querySelector('#pageTitle').innerHTML = `Vamos estudar ${disciplines[key].label.toLowerCase()}<span class="title-dot">.</span>`;
   document.querySelector('#pageIntro').textContent = 'Escolha um assunto e pratique com questões rápidas e explicações.';
@@ -1618,7 +1805,6 @@ function selectDiscipline(key) {
   closeMenu();
   if (randomMode) startRandomQuiz();
 }
-
 function renderTopics() {
   topicList.innerHTML = '';
   const topics = disciplines[activeDiscipline].topics;
@@ -1637,6 +1823,7 @@ function startTopic(key) {
   document.querySelector('#randomToggle').checked = false;
   activeTopic = key;
   currentQuestions = disciplines[activeDiscipline].topics[key].questions;
+  currentQuestionSubject = disciplines[activeDiscipline].topics[key].title;
   questionIndex = 0;
   answered = false;
   renderTopics();
@@ -1649,6 +1836,7 @@ function startRandomQuiz() {
   randomMode = true;
   document.querySelector('#randomToggle').checked = true;
   activeTopic = null;
+  currentQuestionSubject = disciplines[activeDiscipline].label;
   currentQuestions = Object.values(disciplines[activeDiscipline].topics).flatMap(topic =>
     topic.questions.map(question => ({ ...question, topicTitle: topic.title }))
   );
@@ -1668,7 +1856,7 @@ function renderQuestion() {
   const question = currentQuestions[questionIndex];
   answered = false;
   document.querySelector('#questionTag').textContent = `QUESTÃO ${String(questionIndex + 1).padStart(2, '0')}`;
-  document.querySelector('#subjectTag').textContent = randomMode ? `${question.topicTitle} · ${disciplines[activeDiscipline].label}` : disciplines[activeDiscipline].topics[activeTopic].title;
+  document.querySelector('#subjectTag').textContent = randomMode ? `${question.topicTitle} · ${disciplines[activeDiscipline].label}` : (activeContagemTopicKey ? currentQuestionSubject : disciplines[activeDiscipline].topics[activeTopic].title);
   document.querySelector('#progressLabel').textContent = `${questionIndex + 1} de ${currentQuestions.length}`;
   document.querySelector('#progressFill').style.width = `${((questionIndex + 1) / currentQuestions.length) * 100}%`;
   document.querySelector('#questionText').innerHTML = question.question;
@@ -1726,6 +1914,7 @@ document.querySelector('#previousQuestion').addEventListener('click', () => {
 
 document.querySelector('#restartQuiz').addEventListener('click', () => {
   if (randomMode) startRandomQuiz();
+  else if (activeContagemTopicKey) startContagemTopic(activeContagemTopicKey);
   else if (activeTopic) startTopic(activeTopic);
 });
 
@@ -1771,6 +1960,14 @@ document.querySelector('#randomToggle').addEventListener('change', event => {
     document.querySelector('#topicList').hidden = false;
   }
 });
+
+
+
+
+
+
+
+
 
 
 
